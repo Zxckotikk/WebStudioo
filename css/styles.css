@@ -6,7 +6,7 @@
 li {
   list-style-type: none;
 }
-/* Логотип в шапке */
+/* Шапка */
 .header-logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -15,11 +15,11 @@ li {
   letter-spacing: 0.03em;
   color: #2196f3;
 }
-/* Animation студии */
+
 .header-studio:hover {
   color: #2196f3;
 }
-/* Посилання на студию */
+
 .header-studio {
   font-weight: 500;
   font-size: 14px;
@@ -27,11 +27,11 @@ li {
   letter-spacing: 0.02em;
   color: #212121;
 }
-/* Посилання на портфолио */
+
 .header-portfolio:hover {
   color: #2196f3;
 }
-/* Посилання на портфоліо */
+
 .header-portfolio {
   font-weight: 500;
   font-size: 14px;
@@ -39,23 +39,12 @@ li {
   letter-spacing: 0.02em;
   color: #212121;
 }
-/* Кнопка в main */
-.hero-button {
-  width: 216px;
-  height: 50px;
-  border: none;
-  background: #2196f3;
-  color: white;
-}
-/* Animation emael*/
 .header-emael:hover {
   color: #2196f3;
 }
-/* Animation phone*/
 .header-phone-number:hover {
   color: #2196f3;
 }
-/* Посиланя на имейл */
 .header-emael {
   font-weight: 500;
   font-size: 14px;
@@ -63,7 +52,6 @@ li {
   letter-spacing: 0.02em;
   color: #757575;
 }
-/* Посилання на телефон */
 .header-phone-number {
   font-weight: 500;
   font-size: 14px;
@@ -72,11 +60,9 @@ li {
 
   color: #757575;
 }
-/* Animation contacs */
 .header-contacts:hover {
   color: #2196f3;
 }
-/* Контакты */
 .header-contacts {
   font-weight: 500;
   font-size: 14px;
@@ -85,15 +71,12 @@ li {
   color: #212121;
 }
 /* Картинка всяких гаджетов*/
-.work-img {
-  height: 294px;
-  width: 370px;
-}
+
 /* Половина логотипа */
 .header-word {
   color: black;
 }
-/* Надпись перед кнопкой */
+/* Ефективні рішення для вашого бізнесу */
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -103,7 +86,6 @@ li {
   text-transform: uppercase;
   color: #ffffff;
 }
-/* Головні надписи */
 .advantages-title {
   font-weight: 700;
   font-size: 14px;
@@ -113,7 +95,7 @@ li {
 
   color: #212121;
 }
-/* текст у головних надписів */
+
 .advantages-text {
   font-weight: 400;
   font-size: 14px;
@@ -121,7 +103,7 @@ li {
   letter-spacing: 0.03em;
   color: #757575;
 }
-/* надпис перед картинками гаджетів */
+/* Чим ми займаємось */
 .work-title {
   font-weight: 700;
   font-size: 36px;
@@ -131,6 +113,11 @@ li {
 
   color: #212121;
 }
+.work-img {
+  height: 294px;
+  width: 370px;
+}
+
 /* Наша команда */
 .title-team {
   font-family: Roboto;
@@ -142,69 +129,51 @@ li {
 
   color: #212121;
 }
-/* Текст под именем */
 .team-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
-  /* identical to box height */
-
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #757575;
 }
-/* Логотип у підвалі */
+/* Подвал */
 .footer-logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  /* identical to box height */
-
   letter-spacing: 0.03em;
-
   color: #2196f3;
 }
-/* Пів логотипу у підвалі */
 .footer-word {
   color: #ffffff;
 }
-/* Номер телефона в подвале */
 .footer-phonenumber {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  /* or 171% */
-
   letter-spacing: 0.03em;
-
   color: #757575;
 }
-/* Имейл в подвал */
 .footer-emael {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  /* or 171% */
-
   letter-spacing: 0.03em;
-
   color: #757575;
 }
-/* адрес в подвале */
 .footer-address {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  /* or 171% */
-
   letter-spacing: 0.03em;
-
   color: #ffffff;
 }
-/* сортировка */
+/* Портфолио */
+/* Сортировачные кнопки */
 .main-button {
   font-weight: 500;
   font-size: 16px;
@@ -218,12 +187,11 @@ li {
   border-radius: 4px;
   border: 0px;
 }
-/* Animation сортировки */
 .main-button:hover {
   color: #ffffff;
   background: #2196f3;
 }
-/* Надпись над картинками в портфолио */
+/* Карточки */
 .star-title {
   width: 322px;
   height: 36px;
@@ -233,7 +201,6 @@ li {
   letter-spacing: 0.06em;
   color: #212121;
 }
-/* текст над надписями в портфолио */
 .star-text {
   font-weight: 400;
   font-size: 16px;
@@ -241,7 +208,7 @@ li {
   letter-spacing: 0.03em;
   color: #757575;
 }
-/* логотип в подвале в портфолио */
+/* Подвал */
 .footer-logo2 {
   font-family: "Raleway";
   font-weight: 700;
@@ -250,43 +217,31 @@ li {
   letter-spacing: 0.03em;
   color: #2196f3;
 }
-/* Номер телефона в подвале в портфолио */
 .footer-phonenumber2 {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  /* or 171% */
-
   letter-spacing: 0.03em;
-
   color: #757575;
 }
-/* Animation телефона в подвале в портфолио */
 .footer-phonenumber2:hover {
   color: #2196f3;
 }
-/* Имейл в подвале в портфолио */
 .footer-emael2 {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  /* or 171% */
-
   letter-spacing: 0.03em;
   color: #757575;
 }
-/* Animation в подвале в портфолио*/
 .footer-emael2:hover {
   color: #2196f3;
 }
-/* Адрес в подвале в портфолио */
 .footer-address2 {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  /* or 171% */
-
   letter-spacing: 0.03em;
-
   color: #ffffff;
 }

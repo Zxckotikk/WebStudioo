@@ -25,23 +25,11 @@ footer {
   color: #2196f3;
 }
 
-.header-studio:hover {
+.header-link:hover {
   color: #2196f3;
 }
 
-.header-studio {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  color: #212121;
-}
-
-.header-portfolio:hover {
-  color: #2196f3;
-}
-
-.header-portfolio {
+.header-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -213,7 +201,7 @@ footer {
 }
 /* Портфолио */
 /* Сортировачные кнопки */
-.main-button {
+button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -226,12 +214,12 @@ footer {
   border-radius: 4px;
   border: 0px;
 }
-.main-button:hover {
+.button:hover {
   color: #ffffff;
   background: #2196f3;
 }
 /* Карточки */
-.star-title {
+.poster-title {
   width: 322px;
   height: 36px;
   font-weight: 700;
@@ -240,7 +228,7 @@ footer {
   letter-spacing: 0.06em;
   color: #212121;
 }
-.star-text {
+.poster-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;

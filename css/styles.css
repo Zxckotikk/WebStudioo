@@ -197,7 +197,7 @@ footer {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  margin: 51px;
+  /* margin: 51px; */
 
   color: #212121;
 }
@@ -225,18 +225,15 @@ footer {
 .footer-list {
   display: flex;
   flex-direction: column;
-  padding-left: 215px;
-  padding-top: 10px;
 }
 .footer-logo {
+  margin-top: 60px;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #2196f3;
-  /* margin-left: 215px; */
-  padding-left: 215px;
 }
 .footer-word {
   color: #ffffff;
@@ -263,10 +260,17 @@ footer {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #ffffff;
-  margin-top: 110px;
+  margin-top: 20px;
 }
 /* Портфолио */
 /* Сортировачные кнопки */
+.button-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 94px;
+  gap: 8px;
+}
 button {
   font-weight: 500;
   font-size: 16px;
@@ -285,6 +289,14 @@ button {
   background: #2196f3;
 }
 /* Карточки */
+.posters-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  padding-top: 34px;
+  padding-bottom: 94px;
+}
 .poster-title {
   width: 322px;
   height: 36px;

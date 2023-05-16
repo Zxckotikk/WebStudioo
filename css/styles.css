@@ -183,12 +183,14 @@ footer {
 
 /* Наша команда */
 .team-list {
+  outline: solid red;
   display: flex;
   justify-content: center;
   gap: 30px;
   margin-top: 50px;
 }
 .team-item {
+  outline: solid red;
   background: #ffffff;
 }
 .team-title {
@@ -227,13 +229,14 @@ footer {
   flex-direction: column;
 }
 .footer-logo {
-  margin-top: 60px;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #2196f3;
+  padding-top: 60px;
+  display: flex;
 }
 .footer-word {
   color: #ffffff;

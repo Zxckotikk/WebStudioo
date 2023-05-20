@@ -118,6 +118,7 @@ footer {
   margin-left: 500px;
   margin-bottom: 199px;
 }
+
 .hero {
   font-weight: 900;
   font-size: 44px;
@@ -125,7 +126,6 @@ footer {
   letter-spacing: 0.06em;
   color: #ffffff;
   display: flex;
-  /* padding: 200px 452px 280px 452px; */
 }
 .hero-title {
   font-weight: 900;
@@ -184,14 +184,12 @@ footer {
 
 /* Наша команда */
 .team-list {
-  outline: solid red;
   display: flex;
   justify-content: center;
   gap: 30px;
   margin-top: 50px;
 }
 .team-item {
-  outline: solid red;
   background: #ffffff;
 }
 .team-title {
@@ -208,7 +206,6 @@ footer {
   padding: 30px;
 }
 .team-name {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 36px;
   line-height: 1.7;
@@ -316,6 +313,10 @@ button {
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.poster-img {
+  width: 370px;
+  height: 294px;
 }
 /* Подвал */
 .footer-logo2 {

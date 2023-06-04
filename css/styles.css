@@ -140,24 +140,30 @@ footer {
   color: #ffffff;
   display: flex;
 }
-
+.hero-button {
+  margin-left: auto;
+  margin-right: auto;
+}
 .hero-title {
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding-top: 200px;
-  margin-left: 300px;
+  margin-top: 200px;
   width: 696px;
 }
 .advantages-list {
   justify-content: space-evenly;
   display: flex;
 }
-.advantages-title {
+.advantages-item {
   padding-top: 94px;
+}
+.advantages-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
@@ -208,8 +214,9 @@ footer {
   padding-bottom: 93px;
 }
 .team-item {
-  outline: solid #c8c8c8;
+  /* outline: solid #c8c8c8; */
   background: #ffffff;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 .team-title {
   font-weight: 700;

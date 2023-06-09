@@ -4,14 +4,13 @@
 /* Убирает точку  */
 footer {
   background-color: #2f303a;
-  width: 1600px;
+  /* width: 1600px; */
   height: 252px;
 }
 .hero {
-  /* background-color: #2f303a; */
   background-image: url(../img/фон-hero.png);
-  width: 1600px;
   height: 600px;
+  background-repeat: no-repeat;
 }
 .container {
   width: 1200px;
@@ -216,7 +215,7 @@ footer {
 .team-item {
   /* outline: solid #c8c8c8; */
   background: #ffffff;
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
 }
 .team-title {
   font-weight: 700;

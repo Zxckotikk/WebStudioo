@@ -3,15 +3,14 @@
 }
 /* Убирает точку  */
 footer {
-  background-color: #2f303a;
-  /* width: 1600px; */
-  height: 252px;
+  
 }
 .hero {
-  background-image: url(../img/фон-hero.png);
+  background-color: #2f303a;
+  /* background-image: url(../img/фон-hero.png); */
   height: 600px;
   background-repeat: no-repeat;
-}
+}   
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -155,12 +154,12 @@ footer {
   margin-top: 200px;
   width: 696px;
 }
+.advantages{
+  padding-top: 94px;
+}
 .advantages-list {
   justify-content: space-evenly;
   display: flex;
-}
-.advantages-item {
-  padding-top: 94px;
 }
 .advantages-title {
   font-weight: 700;
@@ -182,6 +181,9 @@ footer {
   max-width: 270px;
 }
 /* Чим ми займаємось */
+.work{
+  padding-bottom: 94px;
+}
 .work-title {
   font-weight: 700;
   font-size: 36px;
@@ -206,6 +208,9 @@ footer {
 }
 
 /* Наша команда */
+.team{
+  padding-top: 94px;
+}
 .team-list {
   display: flex;
   gap: 30px;
@@ -223,7 +228,6 @@ footer {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-top: 188px;
   color: #212121;
 }
 .team-img {
@@ -248,9 +252,18 @@ footer {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  padding-bottom: 30px;
+  padding-top: 10px;
 }
 
 /* Подвал */
+.footer{
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left:215px ;
+  padding-right: 1154px;
+}
 .footer-list {
   display: flex;
   flex-direction: column;
@@ -262,7 +275,7 @@ footer {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #2196f3;
-  padding-top: 60px;
+  
   display: flex;
 }
 .footer-word {

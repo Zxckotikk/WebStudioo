@@ -154,6 +154,17 @@ footer {
   margin-top: 200px;
   width: 696px;
 }
+   /* Увага до деталей */
+   .list-img{
+    gap: 30px;
+    display: flex;
+   }
+   .img-item{
+    padding: 25px 100px 25px 100px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    background: #F5F4FA;
+   }
 .advantages{
   padding-top: 94px;
 }

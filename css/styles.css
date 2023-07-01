@@ -1,16 +1,15 @@
 * {
   font-family: "Roboto";
 }
+
 /* Убирает точку  */
-footer {
-  
-}
 .hero {
   background-color: #2f303a;
   /* background-image: url(../img/фон-hero.png); */
   height: 600px;
   background-repeat: no-repeat;
-}   
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -18,6 +17,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
 }
+
 .team-container {
   width: 1200px;
   padding-left: 15px;
@@ -25,6 +25,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
 }
+
 /* Шапка */
 .header {
   padding-top: 24px;
@@ -40,12 +41,15 @@ footer {
   display: flex;
   align-items: center;
 }
+
 .header-phonenumber {
   color: #757575;
 }
+
 .header-phonenumber:hover {
   color: #2196f3;
 }
+
 .header-logo2 {
   color: #2196f3;
   font-family: "Raleway";
@@ -98,9 +102,11 @@ footer {
   align-items: center;
   margin-left: auto;
 }
+
 .header-icon {
   padding-right: 10px;
 }
+
 .header-icon:hover {
   color: #2196f3;
 }
@@ -138,10 +144,12 @@ footer {
   color: #ffffff;
   display: flex;
 }
+
 .hero-button {
   margin-left: auto;
   margin-right: auto;
 }
+
 .hero-title {
   margin-left: auto;
   margin-right: auto;
@@ -154,24 +162,29 @@ footer {
   margin-top: 200px;
   width: 696px;
 }
-   /* Увага до деталей */
-   .list-img{
-    gap: 30px;
-    display: flex;
-   }
-   .img-item{
-    padding: 25px 100px 25px 100px;
-    margin-bottom: 30px;
-    border-radius: 4px;
-    background: #F5F4FA;
-   }
-.advantages{
+
+/* Увага до деталей */
+.list-img {
+  gap: 30px;
+  display: flex;
+}
+
+.img-item {
+  padding: 25px 100px 25px 100px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background: #F5F4FA;
+}
+
+.advantages {
   padding-top: 94px;
 }
+
 .advantages-list {
   justify-content: space-evenly;
   display: flex;
 }
+
 .advantages-title {
   font-weight: 700;
   font-size: 14px;
@@ -191,10 +204,12 @@ footer {
   color: #757575;
   max-width: 270px;
 }
+
 /* Чим ми займаємось */
-.work{
+.work {
   padding-bottom: 94px;
 }
+
 .work-title {
   font-weight: 700;
   font-size: 36px;
@@ -204,6 +219,7 @@ footer {
 
   color: #212121;
 }
+
 .work-list {
   justify-content: space-evenly;
   display: flex;
@@ -213,26 +229,31 @@ footer {
   gap: 30px;
   padding-top: 49px;
 }
+
 .work-img {
   height: 313px;
   width: 370px;
 }
 
 /* Наша команда */
-.team{
+.team {
   padding-top: 94px;
+  background: #F5F4FA;
 }
+
 .team-list {
   display: flex;
   gap: 30px;
   margin-top: 50px;
   padding-bottom: 93px;
 }
+
 .team-item {
   /* outline: solid #c8c8c8; */
   background: #ffffff;
   box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
 }
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -241,10 +262,12 @@ footer {
   letter-spacing: 0.03em;
   color: #212121;
 }
+
 .team-img {
   width: 270px;
   height: 260px;
 }
+
 .team-name {
   display: flex;
   font-weight: 500;
@@ -256,6 +279,7 @@ footer {
   padding-left: 71px;
   padding-top: 30px;
 }
+
 .team-text {
   font-weight: 400;
   font-size: 16px;
@@ -267,18 +291,45 @@ footer {
   padding-top: 10px;
 }
 
+/* Партнеры */
+.company-text {
+  color: #212121;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  padding-top: 94px;
+  padding: 50px;
+}
+
+.company-list {
+  padding-bottom: 94px;
+  display: flex;
+  gap: 30px;
+  padding-left: 247px;
+}
+
+.company-img {
+  padding:16px 32px;
+  border-radius: 4px;
+  border: 1px solid #AFB1B8;
+}
+
 /* Подвал */
-.footer{
+.footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left:215px ;
+  padding-left: 215px;
   padding-right: 1154px;
 }
+
 .footer-list {
   display: flex;
   flex-direction: column;
 }
+
 .footer-logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -286,12 +337,14 @@ footer {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #2196f3;
-  
+
   display: flex;
 }
+
 .footer-word {
   color: #ffffff;
 }
+
 .footer-phonenumber {
   font-weight: 400;
   font-size: 14px;
@@ -299,6 +352,7 @@ footer {
   letter-spacing: 0.03em;
   color: #757575;
 }
+
 .footer-emael {
   font-style: normal;
   font-weight: 400;
@@ -307,6 +361,7 @@ footer {
   letter-spacing: 0.03em;
   color: #757575;
 }
+
 .footer-address {
   font-style: normal;
   font-weight: 400;
@@ -316,6 +371,7 @@ footer {
   color: #ffffff;
   margin-top: 20px;
 }
+
 /* Портфолио */
 /* Сортировачные кнопки */
 .button-list {
@@ -325,6 +381,7 @@ footer {
   padding-top: 94px;
   gap: 8px;
 }
+
 button {
   font-weight: 500;
   font-size: 16px;
@@ -338,10 +395,12 @@ button {
   border-radius: 4px;
   border: 0px;
 }
+
 .button:hover {
   color: #ffffff;
   background: #2196f3;
 }
+
 /* Карточки */
 .posters-list {
   display: flex;
@@ -351,6 +410,7 @@ button {
   padding-top: 34px;
   padding-bottom: 94px;
 }
+
 .poster-title {
   width: 322px;
   height: 36px;
@@ -360,6 +420,7 @@ button {
   letter-spacing: 0.06em;
   color: #212121;
 }
+
 .poster-text {
   font-weight: 400;
   font-size: 16px;
@@ -367,10 +428,12 @@ button {
   letter-spacing: 0.03em;
   color: #757575;
 }
+
 .poster-img {
   width: 370px;
   height: 294px;
 }
+
 /* Подвал */
 .footer-logo2 {
   font-family: "Raleway";
@@ -380,6 +443,7 @@ button {
   letter-spacing: 0.03em;
   color: #2196f3;
 }
+
 .footer-phonenumber2 {
   font-weight: 400;
   font-size: 14px;
@@ -387,9 +451,11 @@ button {
   letter-spacing: 0.03em;
   color: #757575;
 }
+
 .footer-phonenumber2:hover {
   color: #2196f3;
 }
+
 .footer-emael2 {
   font-weight: 400;
   font-size: 14px;
@@ -397,9 +463,11 @@ button {
   letter-spacing: 0.03em;
   color: #757575;
 }
+
 .footer-emael2:hover {
   color: #2196f3;
 }
+
 .footer-address2 {
   font-style: normal;
   font-weight: 400;

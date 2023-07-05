@@ -4,8 +4,8 @@
 
 /* Убирает точку  */
 .hero {
-  background-color: #2f303a;
-  /* background-image: url(../img/фон-hero.png); */
+  /* background-color: #2f303a; */
+  background-image: url(../img/фон-hero.png);
   height: 600px;
   background-repeat: no-repeat;
 }

@@ -6,18 +6,19 @@
 
 .hero {
   display: flex;
-    justify-content: center;
-    align-items: center;;
-    flex-direction: column;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/фон-hero.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding-top: 118px;
-    padding-right: 60px;
-    padding-bottom: 118px;
-    padding-left: 60px;
+  justify-content: center;
+  align-items: center;
+  ;
+  flex-direction: column;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/фон-hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+
 }
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -109,14 +110,11 @@
   display: flex;
   align-items: center;
   margin-left: auto;
+  gap: 30px;
 }
 
-.header-icon {
-  padding-right: 10px;
-}
 .header-emael {
   color: #757575;
-  padding-right: 30px;
 }
 
 .header-emael:hover {
@@ -129,22 +127,22 @@
 
 .hero-button {
   background: #2196f3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    font-family: "Roboto";
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #ffffff;
-    width: 200px;
-    height: 50px;
-    margin-top: 30px;
-    padding-left: 24px;
-    border: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  margin-top: 30px;
+  padding-left: 24px;
+  border: 0;
 }
 
 .hero {
@@ -170,7 +168,6 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-top: 200px;
   width: 696px;
 }
 
@@ -189,6 +186,7 @@
 
 .advantages {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .advantages-list {
@@ -207,7 +205,7 @@
 }
 
 .advantages-text {
-  padding-top: 10px;
+  margin-top: 10px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -215,22 +213,39 @@
   color: #757575;
   max-width: 270px;
 }
-
-/* Чим ми займаємось */
-.work {
-  padding-bottom: 94px;
+.advantages-item:nth-child(2)::before{
+ background-image: url(../img/clock\ 1.png);
+}
+.advantages-item:nth-child(3)::before{
+  background-image: url(../img/diagram\ 1.png);
+ }
+ .advantages-item:last-child:before{
+  background-image: url(../img/astronaut\ 1.png);
+ }
+.advantages-item::before { 
+  border-radius: 4px;
+  background: #F5F4FA;
+  background-repeat: no-repeat;
+  display: block;
+  width: 270px;
+  height: 120px;
+  content: '';
+  background-image: url(../img/antenna.png);
+  background-position: center;
+  background-size: 70px;
+  margin-bottom: 20px;
 }
 
+/* Чим ми займаємось */
 .work-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.7;
   text-align: center;
   letter-spacing: 0.03em;
-
+  margin-bottom: 50px;
   color: #212121;
 }
-
 .work-list {
   justify-content: space-evenly;
   display: flex;
@@ -238,7 +253,7 @@
   align-content: stretch;
   flex-direction: row;
   gap: 30px;
-  padding-top: 49px;
+  padding-bottom: 94px;
 }
 
 .work-img {
@@ -280,15 +295,13 @@
 }
 
 .team-name {
-  display: flex;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.7;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-left: 71px;
-  padding-top: 30px;
+  margin-top: 30px;
 }
 
 .team-text {
@@ -299,11 +312,11 @@
   letter-spacing: 0.03em;
   color: #757575;
   padding-bottom: 30px;
-  padding-top: 10px;
+  margin-top: 10px;
 }
 
 /* Партнеры */
-.company-text {
+/* .company-text {
   color: #212121;
   text-align: center;
   font-size: 36px;
@@ -320,26 +333,26 @@
   gap: 30px;
   padding-left: 375px;
   width: 815px;
-  
+
 }
 
 .company-item {
-  padding:16px 32px;
+  padding: 16px 32px;
   border-radius: 4px;
   border: 1px solid #AFB1B8;
-}
+} */
+
 /* Подвал */
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 215px;
-  padding-right: 1154px;
 }
 
 .footer-list {
   display: flex;
   flex-direction: column;
+  gap: 9px;
 }
 
 .footer-logo {
@@ -395,21 +408,21 @@
 }
 
 .button {
-font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: center;
-    letter-spacing: 0.03em;
-    background: #ffffff;
-    color: #212121;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-        0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    border: 0px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 22px;
-    padding-right: 22px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #ffffff;
+  color: #212121;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: 0px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 .button:hover {
@@ -426,6 +439,7 @@ font-weight: 500;
   padding-top: 34px;
   padding-bottom: 94px;
 }
+
 .poster-item {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
@@ -434,8 +448,8 @@ font-weight: 500;
 }
 
 .poster-title {
-  margin-top:20px;
-  margin-left:24px;
+  margin-top: 20px;
+  margin-left: 24px;
   width: 322px;
   height: 36px;
   font-weight: 700;
@@ -448,7 +462,7 @@ font-weight: 500;
 .poster-text {
   margin-top: 4px;
   margin-bottom: 20px;
-  margin-left:24px;
+  margin-left: 24px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;

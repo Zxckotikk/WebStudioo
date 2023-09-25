@@ -212,16 +212,20 @@
   color: #757575;
   max-width: 270px;
 }
-.advantages-item:nth-child(2)::before{
- background-image: url(../img/clock\ 1.png);
+
+.advantages-item:nth-child(2)::before {
+  background-image: url(../img/clock\ 1.png);
 }
-.advantages-item:nth-child(3)::before{
+
+.advantages-item:nth-child(3)::before {
   background-image: url(../img/diagram\ 1.png);
- }
- .advantages-item:last-child:before{
+}
+
+.advantages-item:last-child:before {
   background-image: url(../img/astronaut\ 1.png);
- }
-.advantages-item::before { 
+}
+
+.advantages-item::before {
   border-radius: 4px;
   background: #F5F4FA;
   background-repeat: no-repeat;
@@ -245,6 +249,7 @@
   margin-bottom: 50px;
   color: #212121;
 }
+
 .work-list {
   justify-content: space-evenly;
   display: flex;
@@ -314,32 +319,44 @@
   margin-top: 10px;
 }
 
-/* Партнеры */
-/* .company-text {
+/* Партнеры  */
+.company-text {
   color: #212121;
   text-align: center;
+  font-family: 'Roboto';
   font-size: 36px;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
   padding-top: 94px;
-  padding: 50px;
+  margin-bottom: 50px;
 }
 
-.company-list {
-  padding-bottom: 94px;
+.icons-list {
   display: flex;
-  gap: 30px;
-  padding-left: 375px;
-  width: 815px;
+  align-content: center;
+  justify-content: center;
+  padding-bottom: 94px;
+}
+
+.icon-item {
+  margin-right: 30px;
 
 }
 
-.company-item {
-  padding: 16px 32px;
+.icons-img {
+  fill: rgba(175, 177, 184, 1);
   border-radius: 4px;
   border: 1px solid #AFB1B8;
-} */
+  width: 170px;
+  height: 92px;
+}
+
+.icons-img:hover {
+  fill: rgba(33, 150, 243, 1);
+  border-radius: 4px;
+  border: 1px solid #2196F3;
+}
 
 /* Подвал */
 .footer {
@@ -394,6 +411,25 @@
   letter-spacing: 0.03em;
   color: #ffffff;
   margin-top: 20px;
+}
+
+.socials-list {
+  display: flex;
+  gap: 34px;
+}
+
+.social-img {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  fill: rgba(255, 255, 255, 1);
+
+}
+
+.social-img:hover {
+  background-color: #2196F3;
+  border-radius: 10px;
+  background-size: 44px;
 }
 
 /* Портфолио */

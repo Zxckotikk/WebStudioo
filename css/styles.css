@@ -329,10 +329,15 @@
   width: 20px;
   height: 20px;
   fill: rgba(175, 177, 184, 1);
+}
 
+.team-icons:hover {
+  background: #2196F3;
+  border-radius: 20px;
 }
 
 /* Партнеры  */
+
 .company-text {
   color: #212121;
   text-align: center;
@@ -354,7 +359,6 @@
 
 .icon-item {
   margin-right: 30px;
-
 }
 
 .icons-img {

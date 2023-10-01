@@ -326,14 +326,23 @@
 }
 
 .team-icons {
-  width: 20px;
-  height: 20px;
+  width: 44px;
+  height: 44px;
   fill: rgba(175, 177, 184, 1);
 }
 
 .team-icons:hover {
+  width: 44px;
+  height: 44px;
   background: #2196F3;
   border-radius: 20px;
+}
+
+.icon-a:hover {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  fill: #2196f3;
 }
 
 /* Партнеры  */

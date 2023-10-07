@@ -325,7 +325,7 @@
   margin-top: 10px;
 }
 
-.team-icons {
+/* .team-icons {
   width: 44px;
   height: 44px;
   fill: rgba(175, 177, 184, 1);
@@ -343,6 +343,35 @@
   height: 20px;
   flex-shrink: 0;
   fill: #2196f3;
+} */
+.icon-team-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 16px;
+  padding-bottom: 30px;
+}
+
+.icon-team-item {
+  border-radius: 100%;
+  padding: 12px;
+  width: 44px;
+  height: 44px;
+}
+
+.team-icons {
+  width: 20px;
+  height: 20px;
+  fill: #AFB1B8;
+}
+
+.icon-team-item:hover .team-icons {
+  fill: #FFF;
+}
+
+.icon-team-item:hover {
+  background-color: #2196F3;
 }
 
 /* Партнеры  */

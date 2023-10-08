@@ -40,6 +40,29 @@
   padding-bottom: 25px;
 }
 
+.header-icon-phone {
+  width: 10px;
+  height: 16px;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.header-icon-envelope {
+  width: 16px;
+  height: 12px;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+
+.header-contact {
+  fill: rgba(117, 117, 117, 1);
+  justify-content: center;
+}
+
+.header-contact:hover {
+  fill: #2196F3;
+}
+
 .header-flex {
   display: flex;
   align-items: center;

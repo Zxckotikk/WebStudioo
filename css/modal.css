@@ -9,6 +9,7 @@
     background: #ffffff;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
         0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
 }
 
 .modal-input {
@@ -141,16 +142,24 @@
     opacity: 0;
     pointer-events: none;
 }
-
 .no-scroll {
     overflow: hidden;
 }
 
 .modal-close {
-    padding: 5px 5px 1.5px 5px;
+    padding: 5px 5px 1px 5px;
     position: absolute;
     top: 8px;
     right: 8px;
     border: 2px solid #c9c9c9;
     border-radius: 50px;
+    width: 50;
+    height: 25px;
+}
+
+.modal-cluse {
+    width: 11px;
+    height: 11px;
+    fill: #000;
+    margin-bottom: 3px;
 }

@@ -126,8 +126,6 @@
   letter-spacing: 0.02em;
   line-height: 1.14;
   opacity: calc(1);
-
-
 }
 
 .header-link-main:focus {
@@ -266,6 +264,11 @@
   padding-left: 24px;
   border: 0;
   cursor: pointer;
+}
+
+.hero-button:hover {
+  transform: scale(1.3);
+  transition: background-color 250ms linear 100ms, box-shadow 300ms linear 100ms, transform 350ms linear 100ms;
 }
 
 .hero {

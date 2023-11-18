@@ -22,6 +22,10 @@
     padding-left: 35px;
 }
 
+.modal-input:hover {
+    border: 2px solid #2196f3;
+}
+
 .modal-comment {
     flex-shrink: 0;
     border-radius: 4px;
@@ -31,6 +35,10 @@
     padding-right: 250px;
     padding-top: 15px;
     padding-left: 15px;
+}
+
+.modal-comment:hover {
+    border: 2px solid #2196f3;
 }
 
 .modal-checkbox {

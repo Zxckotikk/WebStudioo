@@ -487,25 +487,6 @@
   margin-top: 10px;
 }
 
-/* .team-icons {
-  width: 44px;
-  height: 44px;
-  fill: rgba(175, 177, 184, 1);
-}
-
-.team-icons:hover {
-  width: 44px;
-  height: 44px;
-  background: #2196F3;
-  border-radius: 20px;
-}
-
-.icon-a:hover {
-  width: 20px;
-  height: 20px;
-  flex-shrink: 0;
-  fill: #2196f3;
-} */
 .icon-team-list {
   display: flex;
   align-items: center;
@@ -625,6 +606,13 @@
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.96px;
+}
+
+.button-send {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  fill: rgba(255, 255, 255, 1);
 }
 
 /* Подвал */

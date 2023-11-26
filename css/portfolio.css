@@ -113,21 +113,14 @@
     position: relative;
 }
 
-.header-link-second:hover {
-    color: #2196f3;
-    font-size: 14px;
-    letter-spacing: 0.02em;
-    line-height: 1.14;
-    opacity: calc(1);
-
-
-}
-
+.header-link-second:hover,
 .header-link-second:focus {
     color: #2196f3;
     font-size: 14px;
     letter-spacing: 0.02em;
     line-height: 1.14;
+    opacity: calc(1);
+    outline: none;
 }
 
 .header-link-second::after {
@@ -153,19 +146,13 @@
     position: relative;
 }
 
-.header-link:hover {
-    color: #2196f3;
-    font-size: 14px;
-    letter-spacing: 0.02em;
-    line-height: 1.14;
-    opacity: calc(1);
-}
-
+.header-link:hover,
 .header-link:focus {
     color: #2196f3;
     font-size: 14px;
     letter-spacing: 0.02em;
     line-height: 1.14;
+    opacity: calc(1);
 }
 
 .header-link:hover::after {
@@ -178,7 +165,7 @@
     position: absolute;
     top: 43px;
     left: 0;
-
+    outline: none;
 }
 
 

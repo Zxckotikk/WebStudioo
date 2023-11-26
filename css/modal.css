@@ -22,7 +22,10 @@
     padding-left: 35px;
 }
 
-.modal-input:hover {
+.modal-input:hover,
+.modal-input:focus,
+.modal-input:active {
+    fill: #2196f3;
     border: 2px solid #2196f3;
 }
 
@@ -38,7 +41,7 @@
 }
 
 .modal-comment:hover {
-    border: 2px solid #2196f3;
+    border: 2px solid #2196f3
 }
 
 .modal-checkbox {
@@ -79,6 +82,7 @@
     line-height: 30px;
     letter-spacing: 0.96px;
     margin-left: 120px;
+    border: 0;
 }
 
 .modal-person {
@@ -135,6 +139,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
+    transition: opacity 250ms linear 10ms, visibility 250ms linear 10ms;
 }
 
 .backdrop.is-hidden {

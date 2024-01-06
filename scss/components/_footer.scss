@@ -1,0 +1,153 @@
+.footer {
+    display: flex;
+    background-color: #2f303a;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    padding-left: 215px;
+    padding-right: 70px;
+}
+
+.footer-item {
+    max-width: 231px;
+}
+
+.footer-logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+    display: flex;
+    padding-left: 215px;
+}
+
+.footer-word {
+    color: #ffffff;
+}
+
+.footer-phonenumber {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.footer-emael {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.footer-address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.social-title {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.our-telegram {
+    padding-left: 93px;
+}
+
+.tg-container {
+    display: flex;
+    gap: 12px;
+}
+
+.tg-form {
+    width: 358px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(33, 150, 243, 0.00);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding-left: 16px;
+    transition: background-color 250ms linear 100ms, box-shadow 300ms linear 100ms, transform 350ms linear 100ms;
+}
+
+.tg-form:hover {
+    border: 2px solid var(--hover-color);
+}
+
+.tg-title {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.tg-button {
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 0;
+    background: var(--hover-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+}
+
+.button-send {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    fill: rgba(255, 255, 255, 1);
+}
+
+.socials-list {
+    display: flex;
+    gap: 10px;
+}
+
+.social-item {
+    border-radius: 100%;
+    padding: 12px;
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.10);
+    transition: background-color 250ms linear 100ms, transform 350ms linear 100ms;
+}
+
+.social-item:hover {
+    background: var(--hover-color);
+}
+
+.social-img {
+    width: 20px;
+    height: 20px;
+    fill: #FFF;
+}

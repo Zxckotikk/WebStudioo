@@ -6,7 +6,7 @@
     &__list {
         display: flex;
         gap: 30px;
-        margin-top: 16px;
+        margin-top: 49px;
         padding-bottom: 93px;
     }
 
@@ -91,7 +91,7 @@
     }
 
     &__icon-item:hover,
-    &__icon-item:focus-within &__icon {
+    &__icon-item:focus-within .team-icon {
         fill: #FFF;
     }
 

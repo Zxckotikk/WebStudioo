@@ -6,16 +6,16 @@
   color: #ffffff;
   display: flex;
 
-  @media screen and (min-width: 1200px) {
+  // @media screen and (min-width: 1200px) {
 
-    flex-direction: column;
-    background-repeat: no-repeat;
-    background-size: 480px 480px cover;
-    background-position: center;
-    background-size: cover;
-    background-color: rgb(31, 30, 30);
-    width: 100%;
-  }
+  //   flex-direction: column;
+  //   background-repeat: no-repeat;
+  //   background-size: 480px 480px cover;
+  //   background-position: center;
+  //   background-size: cover;
+  //   background-color: rgb(31, 30, 30);
+  //   width: 100%;
+  // }
 
   &__button {
     background: var(--hover-color);

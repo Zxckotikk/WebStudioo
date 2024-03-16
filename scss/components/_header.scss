@@ -3,133 +3,48 @@
     padding-bottom: 25px;
     width: 100%;
     backdrop-filter: blur(100%);
-    background-color: #ffffff;
+    background-color: $white-color;
 
 
     &__flex {
-        display: flex;
-        align-items: center;
+        @include flex ();
     }
 
     &__navigation {
-        display: flex;
-        align-items: center;
+        @include flex ();
     }
 
-    &__pages {
+    &__list {
         gap: 50px;
-        align-items: center;
+        @include flex ();
         margin-left: 93px;
-
     }
 
-    &__link-main {
+
+    &__link {
         font-weight: 500;
-        color: var(--hover-color);
-        font-size: 14px;
-        letter-spacing: 0.02em;
+        color: $text-color;
+        @include fontSize ();
         line-height: 1.14;
         justify-content: right;
         position: relative;
     }
 
-    &__link-main:hover,
-    &__link-main:focus {
-        color: #2196f3;
-        font-size: 14px;
-        letter-spacing: 0.02em;
-        line-height: 1.14;
-        opacity: calc(1);
-        outline: none;
-    }
-
-    &__link-main::after {
-        content: "";
-        width: 100%;
-        height: 5px;
-        background-color: var(--hover-color);
-        border-radius: 3px;
-        position: absolute;
-        top: 43px;
-        left: 0;
-    }
-
-    &__link-second {
-        font-weight: 500;
-        color: #212121;
-        font-size: 14px;
-        letter-spacing: 0.02em;
-        line-height: 1.14;
-        justify-content: right;
-        position: relative;
-    }
-
-    &__link-second:hover {
-        color: var(--hover-color);
-        font-size: 14px;
-        letter-spacing: 0.02em;
+    &__link:hover {
+        color: $hover-color;
+        @include fontSize ();
         line-height: 1.14;
         opacity: calc(1);
     }
 
-    &__link-second:focus,
-    &__link-main:focus {
-        color: var(--hover-color);
-        font-size: 14px;
-        letter-spacing: 0.02em;
+    &__link:focus {
+        color: $hover-color;
+        @include fontSize ();
         line-height: 1.14;
     }
 
-    &__link-second:hover::after {
-        content: "";
 
-        width: 100%;
-        height: 5px;
-        background-color: var(--hover-color);
-        border-radius: 3px;
-        position: absolute;
-        top: 43px;
-        left: 0;
 
-    }
-
-    &__link-third {
-        font-weight: 500;
-        color: #212121;
-        font-size: 14px;
-        letter-spacing: 0.02em;
-        line-height: 1.14;
-        justify-content: right;
-        position: relative;
-
-    }
-
-    &__link-third:hover {
-        color: var(--hover-color);
-        font-size: 14px;
-        letter-spacing: 0.02em;
-        line-height: 1.14;
-        opacity: calc(1);
-    }
-
-    &__link-third:focus {
-        color: var(--hover-color);
-        font-size: 14px;
-        letter-spacing: 0.02em;
-        line-height: 1.14;
-    }
-
-    &__link-third:hover::after {
-        content: "";
-        width: 100%;
-        height: 5px;
-        background-color: var(--hover-color);
-        border-radius: 3px;
-        position: absolute;
-        top: 43px;
-        left: 0;
-
-    }
 
     &__contact {
         fill: rgba(117, 117, 117, 1);
@@ -137,20 +52,10 @@
     }
 
     &__contact:hover {
-        fill: #2196F3;
+        fill: $hover-color;
     }
 
-    &__icon-envelope {
-        width: 16px;
-        height: 12px;
-        flex-shrink: 0;
-        margin-right: 10px;
-        cursor: pointer;
-    }
-
-    &__icon-phone {
-        width: 10px;
-        height: 16px;
+    &__icon {
         flex-shrink: 0;
         margin-right: 10px;
         cursor: pointer;
@@ -158,15 +63,15 @@
 
 
     &__phonenumber {
-        color: #757575;
+        color: $secondary-color;
     }
 
     &__phonenumber:hover {
-        color: #2196f3;
+        color: $hover-color;
     }
 
-    &__logo2 {
-        color: var(--hover-color);
+    &__accent {
+        color: $hover-color;
         font-family: "Raleway";
         font-weight: 700;
         font-size: 26px;
@@ -174,7 +79,7 @@
         line-height: 1.19;
     }
 
-    &__logo1 {
+    &__logo {
         color: #000000;
         font-family: "Raleway";
         font-weight: 700;
@@ -185,7 +90,6 @@
     }
 
 
-
     &__contacts {
         display: flex;
         align-items: center;
@@ -194,15 +98,15 @@
     }
 
     &__emael {
-        color: #757575;
+        color: $secondary-color;
     }
 
     &__emael:hover {
-        color: var(--hover-color);
+        color: $hover-color;
     }
 
     &__emael:focus {
-        color: var(--hover-color);
+        color: $hover-color;
     }
 
 

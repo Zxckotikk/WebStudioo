@@ -1,14 +1,18 @@
 .hero {
+  padding: 200px 0;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: $white-color;
   display: flex;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/img/фон-hero.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 
 
   &__button {
-    background: var(--hover-color);
+    background: $hover-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-family: "Roboto";
@@ -18,12 +22,10 @@
     @include flex ();
     text-align: center;
     letter-spacing: 0.06em;
-    color: #ffffff;
+    color: $white-color;
     width: 200px;
     height: 50px;
     margin-top: 30px;
-    padding-left: 24px;
-    border: 0;
     cursor: pointer;
     transition: transform 350ms linear 100ms;
   }

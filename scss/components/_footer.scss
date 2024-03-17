@@ -1,15 +1,17 @@
 .footer {
-    display: flex;
+
     background-color: #2f303a;
     padding-top: 60px;
     padding-bottom: 60px;
 
+    &__container {
+        display: flex;
+    }
 
     &__list {
         display: flex;
         flex-direction: column;
         gap: 9px;
-        padding-left: 215px;
         padding-right: 70px;
     }
 
@@ -25,11 +27,10 @@
         letter-spacing: 0.03em;
         color: #2196f3;
         display: flex;
-        padding-left: 215px;
     }
 
     &__word {
-        color: #ffffff;
+        color: $white-color;
     }
 
     &__phonenumber {

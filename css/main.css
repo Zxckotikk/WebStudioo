@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   outline: none;
   margin: 0;
@@ -22,7 +23,7 @@ button {
 }
 
 .container {
-  width: 1200px;
+  width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -310,16 +311,17 @@ button {
 }
 
 .footer {
-  display: flex;
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.footer__container {
+  display: flex;
 }
 .footer__list {
   display: flex;
   flex-direction: column;
   gap: 9px;
-  padding-left: 215px;
   padding-right: 70px;
 }
 .footer__item {
@@ -333,10 +335,9 @@ button {
   letter-spacing: 0.03em;
   color: #2196f3;
   display: flex;
-  padding-left: 215px;
 }
 .footer__word {
-  color: #ffffff;
+  color: #fff;
 }
 .footer__phonenumber {
   font-weight: 400;
@@ -445,15 +446,19 @@ button {
 }
 
 .hero {
+  padding: 200px 0;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: #fff;
   display: flex;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/img/фон-hero.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 .hero__button {
-  background: var(--hover-color);
+  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-family: "Roboto";
@@ -466,12 +471,10 @@ button {
   flex-wrap: wrap;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: #fff;
   width: 200px;
   height: 50px;
   margin-top: 30px;
-  padding-left: 24px;
-  border: 0;
   cursor: pointer;
   transition: transform 350ms linear 100ms;
 }
@@ -595,7 +598,7 @@ button {
   flex-wrap: wrap;
 }
 .work__img {
-  height: 313px;
+  height: 294px;
   width: 370px;
 }
 
@@ -682,7 +685,11 @@ button {
   background-color: #2196f3;
 }
 
-.company__text {
+.company {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+.company__title {
   color: #212121;
   text-align: center;
   font-family: "Roboto";
@@ -690,14 +697,13 @@ button {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 .company__list {
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
-  padding-bottom: 94px;
+  flex-wrap: wrap;
 }
 .company__item {
   margin-right: 30px;
@@ -712,7 +718,7 @@ button {
 .company__img:hover {
   fill: rgb(33, 150, 243);
   border-radius: 4px;
-  border: 1px solid var(--hover-color);
+  border: 1px solid #2196f3;
 }
 
 .header__item:nth-child(1) .header__link {
@@ -725,13 +731,10 @@ button {
   justify-content: right;
   position: relative;
 }
-
-.header__link:hover,
-.header__link:focus {
+.header__item:nth-child(1) .header__link:hover, .header__item:nth-child(1) .header__link:focus {
   color: #2196f3;
 }
-
-.header__link::after {
+.header__item:nth-child(1) .header__link::after {
   content: "";
   width: 100%;
   height: 5px;
@@ -741,8 +744,7 @@ button {
   top: 43px;
   left: 0;
 }
-
-.header__link:hover::after {
+.header__item:nth-child(1) .header__link:hover::after {
   content: "";
   width: 100%;
   height: 5px;

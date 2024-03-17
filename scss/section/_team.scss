@@ -11,14 +11,12 @@
     }
 
     &__item {
-        background: #ffffff;
         border-radius: 0px 0px 4px 4px;
-        background: #FFF;
+        background-color: $white-color;
         box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     }
 
-    &__item:hover,
-    &__item:focus-within {
+    &__item:hover {
         box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
         border: none;
         transform: scale(1.05);
@@ -31,7 +29,7 @@
         line-height: 42px;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #212121;
+        color: $text-color;
     }
 
     &__img {
@@ -45,7 +43,7 @@
         line-height: 1.7;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #212121;
+        color: $text-color;
         margin-top: 30px;
     }
 
@@ -55,7 +53,7 @@
         line-height: 1.2;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #757575;
+        color: $secondary-color;
         margin-top: 10px;
     }
 
@@ -78,25 +76,25 @@
     &__icons {
         width: 20px;
         height: 20px;
-        fill: #AFB1B8;
+        fill: $icon-color;
     }
 
     &__icon-item:hover &__icons {
-        fill: #FFF;
+        fill: $white-color;
 
     }
 
     &__icon-item:hover {
-        background-color: var(--hover-color);
+        background-color: $hover-color;
     }
 
     &__icon-item:hover,
     &__icon-item:focus-within .team-icon {
-        fill: #FFF;
+        fill: $white-color;
     }
 
     &__icon-item:hover,
     &__icon-item:focus-within {
-        background-color: var(--hover-color);
+        background-color: $hover-color;
     }
 }

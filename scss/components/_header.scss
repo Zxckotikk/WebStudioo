@@ -25,7 +25,6 @@
         font-weight: 500;
         color: $text-color;
         @include fontSize ();
-        line-height: 1.14;
         justify-content: right;
         position: relative;
     }
@@ -33,14 +32,11 @@
     &__link:hover {
         color: $hover-color;
         @include fontSize ();
-        line-height: 1.14;
-        opacity: calc(1);
     }
 
     &__link:focus {
         color: $hover-color;
         @include fontSize ();
-        line-height: 1.14;
     }
 
 
@@ -117,7 +113,7 @@
         height: 40px;
         margin-left: auto;
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
         flex-direction: column;
     }
 }

@@ -15,7 +15,7 @@
   }
 
   &__list {
-    @include flex ();
+    @include flex ($align: center, $justify: center);
 
   }
 

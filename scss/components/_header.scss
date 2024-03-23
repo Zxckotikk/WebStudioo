@@ -5,18 +5,17 @@
     backdrop-filter: blur(100%);
     background-color: $white-color;
 
-
     &__flex {
-        @include flex ();
+        @include flex ($align: center, $justify: center);
     }
 
     &__navigation {
-        @include flex ();
+        @include flex ($align: center, $justify: center);
     }
 
     &__list {
         gap: 50px;
-        @include flex ();
+        @include flex ($align: center, $justify: center);
         margin-left: 93px;
     }
 
@@ -24,19 +23,18 @@
     &__link {
         font-weight: 500;
         color: $text-color;
-        @include fontSize ();
+        @include fontSize ($font: 14px);
         justify-content: right;
         position: relative;
     }
-
     &__link:hover {
         color: $hover-color;
-        @include fontSize ();
+        @include fontSize ($font: 14px);
     }
 
     &__link:focus {
         color: $hover-color;
-        @include fontSize ();
+        @include fontSize ($font: 14px);
     }
 
 
@@ -65,7 +63,6 @@
     &__phonenumber:hover {
         color: $hover-color;
     }
-
     &__accent {
         color: $hover-color;
         font-family: "Raleway";

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .hero__button, .modal-send {
-  background: #2196f3;
+  background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-family: "Roboto";
@@ -102,6 +102,10 @@ button {
   line-height: 1.14;
 }
 .header__contact {
+  display: none;
+  gap: 50px;
+  align-items: center;
+  margin-left: auto;
   fill: rgb(117, 117, 117);
   justify-content: center;
 }
@@ -135,6 +139,12 @@ button {
   letter-spacing: 0.03em;
   line-height: 1.19;
   width: 134px;
+  height: 28px;
+}
+@media screen and (min-width: 320px) {
+  .header__logo {
+    margin-left: 15px;
+  }
 }
 .header__contacts {
   display: flex;
@@ -463,6 +473,11 @@ button {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+@media screen and (min-width: 500px) {
+  .hero {
+    background-size: 480px 400px;
+  }
+}
 .hero__button:hover {
   transform: scale(1.3);
 }
@@ -481,16 +496,29 @@ button {
   text-transform: uppercase;
   width: 696px;
 }
+@media screen and (min-width: 500px) {
+  .hero__title {
+    width: 400px;
+    height: 84px;
+    font-size: 26px;
+  }
+}
 
 .advantages {
   padding-top: 94px;
   padding-bottom: 46px;
+  display: flex;
 }
 .advantages__list {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+@media screen and (min-width: 500px) {
+  .advantages__list {
+    display: block;
+  }
 }
 .advantages__title {
   font-weight: 700;
@@ -500,6 +528,13 @@ button {
   text-transform: uppercase;
   color: #212121;
 }
+@media screen and (min-width: 500px) {
+  .advantages__title {
+    width: 450px;
+    height: 226px;
+    text-align: center;
+  }
+}
 .advantages__text {
   margin-top: 10px;
   font-weight: 400;
@@ -508,6 +543,13 @@ button {
   letter-spacing: 0.03em;
   color: #757575;
   max-width: 270px;
+}
+@media screen and (min-width: 500px) {
+  .advantages__text {
+    max-width: 450px;
+    height: 50px;
+    text-align: center;
+  }
 }
 .advantages__item:nth-child(2)::before {
   background-image: url(../img/clock\ 1.png);
@@ -522,7 +564,6 @@ button {
   border-radius: 4px;
   background: #F5F4FA;
   background-repeat: no-repeat;
-  display: block;
   width: 270px;
   height: 120px;
   content: "";
@@ -704,38 +745,4 @@ button {
   fill: rgb(33, 150, 243);
   border-radius: 4px;
   border: 1px solid #2196f3;
-}
-
-.header__item:nth-child(1) .header__link {
-  font-weight: 500;
-  color: #2196f3;
-  font-size: 14px;
-  letter-spacing: 0.02em;
-  line-height: 1.14;
-  line-height: 1.14;
-  justify-content: right;
-  position: relative;
-}
-.header__item:nth-child(1) .header__link:hover, .header__item:nth-child(1) .header__link:focus {
-  color: #2196f3;
-}
-.header__item:nth-child(1) .header__link::after {
-  content: "";
-  width: 100%;
-  height: 5px;
-  background-color: #2196f3;
-  border-radius: 3px;
-  position: absolute;
-  top: 43px;
-  left: 0;
-}
-.header__item:nth-child(1) .header__link:hover::after {
-  content: "";
-  width: 100%;
-  height: 5px;
-  background-color: #2196f3;
-  border-radius: 3px;
-  position: absolute;
-  top: 43px;
-  left: 0;
 }/*# sourceMappingURL=main.css.map */

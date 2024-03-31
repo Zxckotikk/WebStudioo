@@ -5,6 +5,8 @@
     backdrop-filter: blur(100%);
     background-color: $white-color;
 
+
+
     &__flex {
         @include flex ($align: center, $justify: center);
     }
@@ -17,6 +19,8 @@
         gap: 50px;
         @include flex ($align: center, $justify: center);
         margin-left: 93px;
+
+
     }
 
 
@@ -26,7 +30,10 @@
         @include fontSize ($font: 14px);
         justify-content: right;
         position: relative;
+
+
     }
+
     &__link:hover {
         color: $hover-color;
         @include fontSize ($font: 14px);
@@ -37,16 +44,18 @@
         @include fontSize ($font: 14px);
     }
 
-
-
-
     &__contact {
+        display: none;
+        gap: 50px;
+        align-items: center;
+        margin-left: auto;
         fill: rgba(117, 117, 117, 1);
         justify-content: center;
     }
 
+
     &__contact:hover {
-        fill: $hover-color;
+        fill: #2196f3;
     }
 
     &__icon {
@@ -63,6 +72,7 @@
     &__phonenumber:hover {
         color: $hover-color;
     }
+
     &__accent {
         color: $hover-color;
         font-family: "Raleway";
@@ -80,7 +90,13 @@
         letter-spacing: 0.03em;
         line-height: 1.19;
         width: 134px;
+        height: 28px;
+
+        @media screen and (min-width: 320px) {
+            margin-left: 15px;
+        }
     }
+
 
 
     &__contacts {

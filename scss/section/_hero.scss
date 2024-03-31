@@ -10,9 +10,13 @@
   background-repeat: no-repeat;
   background-size: 100%;
 
+  @media screen and (min-width: 500px) {
+    background-size: 480px 400px;
+  }
+
 
   &__button {
-   @extend %button;
+    @extend %button;
   }
 
   &__button:hover {
@@ -35,5 +39,11 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     width: 696px;
+
+    @media screen and (min-width: 500px) {
+      width: 400px;
+      height: 84px;
+      font-size: 26px;
+    }
   }
 }

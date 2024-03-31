@@ -100,15 +100,14 @@ button {
   transform: translate(0);
 }
 
-.button-list {
+.buttons__list {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 94px;
   gap: 8px;
 }
-
-.button {
+.buttons__button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -125,8 +124,7 @@ button {
   padding-right: 22px;
   transition: color 250ms linear 100ms;
 }
-
-.button:hover {
+.buttons:hover {
   color: #ffffff;
   background: #2196f3;
 }
@@ -316,6 +314,10 @@ button {
   line-height: 1.14;
 }
 .header__contact {
+  display: none;
+  gap: 50px;
+  align-items: center;
+  margin-left: auto;
   fill: rgb(117, 117, 117);
   justify-content: center;
 }
@@ -349,6 +351,12 @@ button {
   letter-spacing: 0.03em;
   line-height: 1.19;
   width: 134px;
+  height: 28px;
+}
+@media screen and (min-width: 320px) {
+  .header__logo {
+    margin-left: 15px;
+  }
 }
 .header__contacts {
   display: flex;

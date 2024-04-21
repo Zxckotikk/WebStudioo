@@ -8,10 +8,6 @@
 
   &__list {
     @include flex ($justify: space-between);
-
-    @media screen and (min-width:500px) {
-      display: block;
-    }
   }
 
   &__title {
@@ -21,52 +17,49 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: $text-color;
+    margin-bottom: 0;
 
-    @media screen and (min-width:500px) {
-      width: 450px;
-      height: 226px;
-      text-align: center;
+    @media screen and (min-width:480px) {}
+
+    &__text {
+      margin-top: 10px;
+      margin-bottom: 0;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.7;
+      letter-spacing: 0.03em;
+      color: $secondary-color;
+      max-width: 270px;
+
+      @media screen and (min-width:480px) {
+        max-width: 450px;
+        height: 50px;
+        text-align: center;
+      }
     }
-  }
 
-  &__text {
-    margin-top: 10px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    color: $secondary-color;
-    max-width: 270px;
-
-    @media screen and (min-width:500px) {
-      max-width: 450px;
-      height: 50px;
-      text-align: center;
+    &__item:nth-child(1):after {
+      background-image: url(/img/clock\ 1.png);
+      width: 65px;
+      height: 70px;
     }
-  }
 
-  &__item:nth-child(2)::before {
-    background-image: url(../img/clock\ 1.png);
-  }
+    &__item:nth-child(2)::after {
+      background-image: url(/img/diagram\ 1.png);
+      width: 65px;
+      height: 70px;
+    }
 
-  &__item:nth-child(3)::before {
-    background-image: url(../img/diagram\ 1.png);
-  }
+    &__item:nth-child(3):after {
+      background-image: url(/img/astronaut\ 1.png);
+      width: 65px;
+      height: 70px;
+    }
 
-  &__item:last-child:before {
-    background-image: url(../img/astronaut\ 1.png);
-  }
-
-  &__item::before {
-    border-radius: 4px;
-    background: #F5F4FA;
-    background-repeat: no-repeat;
-    width: 270px;
-    height: 120px;
-    content: '';
-    background-image: url(../img/antenna.png);
-    background-position: center;
-    background-size: 70px;
-    margin-bottom: 20px;
+    &__item:last-child:after {
+      background-image: url(/img/antenna.png);
+      width: 65px;
+      height: 70px;
+    }
   }
 }

@@ -71,6 +71,8 @@
 
 .modal-send {
     @extend %button;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .modal-person {

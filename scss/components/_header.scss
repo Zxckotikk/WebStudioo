@@ -29,8 +29,6 @@
         @include fontSize ($font: 14px);
         justify-content: right;
         position: relative;
-
-
     }
 
     &__link:hover {
@@ -65,6 +63,7 @@
 
     &__phonenumber {
         color: $secondary-color;
+        height: 16px;
     }
 
     &__phonenumber:hover {

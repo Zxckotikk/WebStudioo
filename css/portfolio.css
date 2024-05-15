@@ -236,11 +236,14 @@ button {
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 .footer__button-send {
   width: 24px;
   height: 24px;
-  flex-shrink: 0;
   fill: rgb(255, 255, 255);
 }
 .footer__socials-list {
@@ -330,6 +333,7 @@ button {
 }
 .header__phonenumber {
   color: #757575;
+  height: 16px;
 }
 .header__phonenumber:hover {
   color: #2196f3;

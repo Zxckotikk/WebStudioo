@@ -120,12 +120,15 @@
         font-weight: 700;
         line-height: 30px;
         letter-spacing: 0.96px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
     }
 
     &__button-send {
         width: 24px;
         height: 24px;
-        flex-shrink: 0;
         fill: rgba(255, 255, 255, 1);
     }
 

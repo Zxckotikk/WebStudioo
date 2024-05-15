@@ -118,6 +118,7 @@ button {
 }
 .header__phonenumber {
   color: #757575;
+  height: 16px;
 }
 .header__phonenumber:hover {
   color: #2196f3;
@@ -432,11 +433,14 @@ button {
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 .footer__button-send {
   width: 24px;
   height: 24px;
-  flex-shrink: 0;
   fill: rgb(255, 255, 255);
 }
 .footer__socials-list {
@@ -468,7 +472,7 @@ button {
   letter-spacing: 0.06em;
   color: #fff;
   display: flex;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/img/фон-hero.png);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/фон-hero.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -526,8 +530,6 @@ button {
   border-radius: 4px;
   width: 70px;
   height: 70px;
-  background: #f5f4fa;
-  background-size: contain;
 }
 .advantages__item {
   width: 270px;

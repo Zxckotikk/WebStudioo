@@ -53,35 +53,6 @@ button {
   background: #FFF;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
-.poster__title {
-  margin-top: 20px;
-  margin-left: 24px;
-  width: 322px;
-  height: 36px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: #212121;
-}
-.poster__info {
-  margin-top: 4px;
-  margin-bottom: 20px;
-  margin-left: 24px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.8;
-  letter-spacing: 0.03em;
-  color: #757575;
-}
-.poster__img {
-  width: 370px;
-  height: 294px;
-}
-.poster__container {
-  position: relative;
-  overflow: hidden;
-}
 .poster__text {
   position: absolute;
   color: #FFF;
@@ -98,6 +69,33 @@ button {
 }
 .poster__item:hover .poster__text {
   transform: translate(0);
+}
+.poster__text-container {
+  padding-left: 24px;
+}
+.poster__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.poster__info {
+  margin-top: 4px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.poster__img {
+  width: 370px;
+  height: 294px;
+}
+.poster__container {
+  position: relative;
+  overflow: hidden;
 }
 
 .buttons__list {
@@ -124,7 +122,7 @@ button {
   padding-right: 22px;
   transition: color 250ms linear 100ms;
 }
-.buttons:hover {
+.buttons__button:hover {
   color: #ffffff;
   background: #2196f3;
 }

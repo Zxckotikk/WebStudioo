@@ -26,19 +26,19 @@
     &__link {
         font-weight: 500;
         color: $text-color;
-        @include fontSize ($font: 14px);
+        @include fontSize($font: 14px);
         justify-content: right;
         position: relative;
     }
 
     &__link:hover {
         color: $hover-color;
-        @include fontSize ($font: 14px);
+        @include fontSize($font: 14px);
     }
 
     &__link:focus {
         color: $hover-color;
-        @include fontSize ($font: 14px);
+        @include fontSize($font: 14px);
     }
 
     &__contact {
@@ -122,4 +122,5 @@
         justify-content: flex-end;
         flex-direction: column;
     }
+
 }

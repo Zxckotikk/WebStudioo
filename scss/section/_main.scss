@@ -1,5 +1,5 @@
 .buttons {
-    
+
     &__list {
         display: flex;
         align-items: center;
@@ -27,7 +27,7 @@
         transition: color 250ms linear 100ms;
     }
 
-    &:hover {
+    &__button:hover {
         color: #ffffff;
         background: #2196f3;
     }

@@ -35,8 +35,12 @@
     height: 70px;
   }
 
-  &__item {
+  .advantages__img-container {
     width: 270px;
-    height: 248px;
+    height: 120px;
+    margin-bottom: 30px;
+    padding-left: 100px;
+    padding-top: 25px;
+    background-color: #F5F4FA;
   }
 }

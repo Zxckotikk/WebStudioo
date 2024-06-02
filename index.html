@@ -371,7 +371,7 @@
   </footer>
   <div class="backdrop is-hidden" data-modal>
     <div class="modal-window" id="modalWindow">
-      <a class="modal-close" data-modal-close>
+      <a class="modal-close">
         <svg class="modal-cluse">
           <use href="./img/icons.svg#icon-close"></use>
         </svg>
@@ -382,30 +382,30 @@
         <svg class="modal-person" width="18" height="18">
           <use href="./img/icons.svg#icon-modal-person"></use>
         </svg>
-        <input class="modal-input" id="name" type="text">
+        <input class="modal-input" id="name" type="text" required>
 
         <label class="modal-label" for="phone">Телефон</label>
         <svg class="modal-phone" width="18" height="18">
           <use href="./img/icons.svg#icon-modal-phone"></use>
         </svg>
-        <input class="modal-input" id="phone" type="text">
+        <input class="modal-input" id="phone" type="text" required>
 
         <label class="modal-label" for="mail">Пошта</label>
         <svg class="modal-email" width="18" height="18">
           <use href="./img/icons.svg#icon-modal-convert"></use>
         </svg>
-        <input class="modal-input" id="mail" type="text">
+        <input class="modal-input" id="mail" type="text" required>
 
         <label class="modal-label" for="comment">Коментар</label>
-        <input class="modal-comment" id="comment" type="text" placeholder="Введіть текст">
+        <input class="modal-comment" id="comment" type="text" placeholder="Введіть текст" required>
 
-        <input class="modal-checkbox" id="Terms" type="checkbox">
+        <input class="modal-checkbox" id="Terms" type="checkbox" required>
         <label class="label-terms" for="Terms">Погоджуюся з розсилкою та приймаю <span class="blue-terms">Умови
             договору</span>
         </label>
       </form>
 
-      <button class="modal-send" data-modal-close>Відправити</button>
+      <button class="modal-send" data-modal-close type="submit">Відправити</button>
 
     </div>
   </div>

@@ -15,7 +15,7 @@
         height: 404px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         flex-basis: calc((100% - 65px) / 3);
-        transition: background-color 250ms linear 100ms, box-shadow 300ms linear 100ms, transform 350ms linear 100ms;
+        transition: background-color 250ms linear 100ms, box-shadow 300ms linear 100ms, transform 350ms linear 100ms, border 250ms linear 100ms;
     }
 
     &__item:hover {

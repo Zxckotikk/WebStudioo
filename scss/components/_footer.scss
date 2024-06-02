@@ -87,7 +87,7 @@
         background: rgba(33, 150, 243, 0.00);
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         padding-left: 16px;
-        transition: background-color 250ms linear 100ms, box-shadow 300ms linear 100ms, transform 350ms linear 100ms;
+        transition: background-color 250ms linear 100ms;
     }
 
     &__tg-form:hover {
@@ -146,7 +146,7 @@
         transition: background-color 250ms linear 100ms, transform 350ms linear 100ms;
     }
 
-    &__social-item:hover {
+    &__social-item:hover {  
         background-color: $hover-color;
     }
 

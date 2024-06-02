@@ -45,10 +45,10 @@ button {
   height: 404px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   flex-basis: calc((100% - 65px) / 3);
+  transition: background-color 250ms linear 100ms, box-shadow 300ms linear 100ms, transform 350ms linear 100ms;
 }
 .poster__item:hover {
   transform: scale(1.05);
-  transition: background-color 250ms linear 100ms, box-shadow 300ms linear 100ms, transform 350ms linear 100ms;
   border: 1px solid #EEE;
   background: #FFF;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
@@ -207,7 +207,7 @@ button {
   transition: background-color 250ms linear 100ms, box-shadow 300ms linear 100ms, transform 350ms linear 100ms;
 }
 .footer__tg-form:hover {
-  border: 2px solid #2196f3;
+  background-color: 2px solid #2196f3;
 }
 .footer__tg-title {
   color: #FFF;
@@ -257,7 +257,7 @@ button {
   transition: background-color 250ms linear 100ms, transform 350ms linear 100ms;
 }
 .footer__social-item:hover {
-  background: #2196f3;
+  background-color: #2196f3;
 }
 .footer__social-img {
   width: 20px;
@@ -301,6 +301,7 @@ button {
   line-height: 1.14;
   justify-content: right;
   position: relative;
+  transition: color 250ms linear 100ms;
 }
 .header__link:hover {
   color: #2196f3;
@@ -320,6 +321,7 @@ button {
   margin-left: auto;
   fill: rgb(117, 117, 117);
   justify-content: center;
+  transition: fill 250ms linear 100ms;
 }
 .header__contact:hover {
   fill: #2196f3;
@@ -332,6 +334,7 @@ button {
 .header__phonenumber {
   color: #757575;
   height: 16px;
+  transition: color 250ms linear 100ms;
 }
 .header__phonenumber:hover {
   color: #2196f3;
@@ -362,6 +365,7 @@ button {
 }
 .header__emael {
   color: #757575;
+  transition: color 250ms linear 100ms;
 }
 .header__emael:hover {
   color: #2196f3;

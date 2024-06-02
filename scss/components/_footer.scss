@@ -91,7 +91,7 @@
     }
 
     &__tg-form:hover {
-        border: 2px solid $hover-color;
+        background-color: 2px solid $hover-color;
     }
 
     &__tg-title {
@@ -147,7 +147,7 @@
     }
 
     &__social-item:hover {
-        background: $hover-color;
+        background-color: $hover-color;
     }
 
     &__social-img {

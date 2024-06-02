@@ -29,6 +29,7 @@
     border: 1px solid $icon-color;
     width: 170px;
     height: 92px;
+    transition: fill 250ms linear 100ms, border-radius 250ms linear 100ms, border 250ms linear 100ms;
   }
 
   &__img:hover {

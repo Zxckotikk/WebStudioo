@@ -15,11 +15,11 @@
         height: 404px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         flex-basis: calc((100% - 65px) / 3);
+        transition: background-color 250ms linear 100ms, box-shadow 300ms linear 100ms, transform 350ms linear 100ms;
     }
 
     &__item:hover {
         transform: scale(1.05);
-        transition: background-color 250ms linear 100ms, box-shadow 300ms linear 100ms, transform 350ms linear 100ms;
         border: 1px solid #EEE;
         background: #FFF;
         box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);

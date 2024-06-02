@@ -5,8 +5,6 @@
     backdrop-filter: blur(100%);
     background-color: $white-color;
 
-
-
     &__flex {
         @include flex ($align: center, $justify: center);
     }
@@ -29,6 +27,7 @@
         @include fontSize($font: 14px);
         justify-content: right;
         position: relative;
+        transition: color 250ms linear 100ms;
     }
 
     &__link:hover {
@@ -47,6 +46,7 @@
         margin-left: auto;
         fill: rgba(117, 117, 117, 1);
         justify-content: center;
+        transition: fill 250ms linear 100ms;
     }
 
 
@@ -64,6 +64,7 @@
     &__phonenumber {
         color: $secondary-color;
         height: 16px;
+        transition: color 250ms linear 100ms;
     }
 
     &__phonenumber:hover {
@@ -90,8 +91,6 @@
         height: 28px;
     }
 
-
-
     &__contacts {
         display: flex;
         align-items: center;
@@ -101,6 +100,7 @@
 
     &__emael {
         color: $secondary-color;
+        transition: color 250ms linear 100ms;
     }
 
     &__emael:hover {
@@ -108,9 +108,8 @@
     }
 
     &__emael:focus {
-        color: $hover-color;
+        color: $hover-color; 
     }
-
 
     &__bth {
         background-color: transparent;

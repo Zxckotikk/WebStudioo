@@ -37,11 +37,11 @@
     position: relative;
     height: 294px;
     width: 370px;
+    transition: transform 150ms linear 100ms;
   }
 
   &__item:hover {
     transform: scale(1.1);
-    transition: transform 150ms linear 100ms;
   }
 
   &__list {

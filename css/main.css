@@ -213,20 +213,24 @@ button {
   padding-top: 15px;
   padding-left: 15px;
   transition: border 250ms linear 100ms;
+  margin-bottom: 20px;
 }
 
 .modal-comment:hover {
   border: 2px solid #2196f3;
 }
 
+.terms-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
 .modal-checkbox {
   width: 16px;
   height: 15px;
   flex-shrink: 0;
-  fill: #212121;
-  margin-top: 20px;
-  margin-right: 4px;
-  margin-bottom: 30px;
 }
 
 .modal-form {
@@ -320,10 +324,15 @@ button {
   position: absolute;
   top: 8px;
   right: 8px;
-  border: 2px solid #c9c9c9;
-  border-radius: 50px;
-  width: 50;
-  height: 25px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: rgba(0, 0, 0, 0.1) solid 1px;
+  fill: #fff;
+  stroke-width: 1px;
+  stroke: rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display: block;
 }
 
 .modal-cluse {
@@ -399,6 +408,9 @@ button {
 }
 .footer__tg-container {
   display: flex;
+}
+.footer__tg-list {
+  display: flex;
   gap: 12px;
 }
 .footer__tg-form {
@@ -411,6 +423,7 @@ button {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding-left: 16px;
   transition: background-color 250ms linear 100ms;
+  color: #FFF;
 }
 .footer__tg-form:hover {
   background-color: 2px solid #2196f3;

@@ -6,6 +6,10 @@
 
     &__container {
         display: flex;
+
+        @media screen and (max-width:480px) {
+            display: block;
+        }
     }
 
     &__list {
@@ -13,6 +17,13 @@
         flex-direction: column;
         gap: 9px;
         padding-right: 70px;
+
+        @media screen and (max-width:480px) {
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 60px;
+            padding-right: 0;
+        }
     }
 
     &__item {
@@ -27,6 +38,11 @@
         letter-spacing: 0.03em;
         color: #2196f3;
         display: flex;
+
+        @media screen and (max-width:480px) {
+            align-items: center;
+            justify-content: center;
+        }
     }
 
     &__word {
@@ -67,20 +83,37 @@
         letter-spacing: 0.42px;
         text-transform: uppercase;
         margin-bottom: 20px;
+
+        @media screen and (max-width:480px) {
+            letter-spacing: 0.03em;
+            text-align: center;
+        }
     }
 
     &__our-telegram {
         padding-left: 93px;
+
+        @media screen and (max-width:480px) {
+            padding-left: 0;
+            text-align: center;
+        }
     }
 
     &__tg-container {
         display: flex;
-       
+
+
     }
 
     &__tg-list {
         display: flex;
         gap: 12px;
+
+        @media screen and (max-width:480px) {
+            display: block;
+            justify-content: center;
+            text-align: center;
+        }
     }
 
     &__tg-form {
@@ -94,6 +127,10 @@
         padding-left: 16px;
         transition: background-color 250ms linear 100ms;
         color: #FFF;
+
+        @media screen and (max-width:480px) {
+            width: 450px;
+        }
     }
 
     &__tg-form:hover {
@@ -109,6 +146,10 @@
         letter-spacing: 0.42px;
         text-transform: uppercase;
         margin-bottom: 20px;
+
+        @media screen and (max-width:480px) {
+            padding-top: 60px;
+        }
     }
 
     &__tg-button {
@@ -130,6 +171,11 @@
         justify-content: center;
         align-items: center;
         gap: 10px;
+
+        @media screen and (max-width:480px) {
+            margin-left: 140px;
+            margin-top: 20px;
+        }
     }
 
     &__button-send {
@@ -141,6 +187,11 @@
     &__socials-list {
         display: flex;
         gap: 10px;
+
+        @media screen and (max-width:480px) {
+            align-items: center;
+            justify-content: center;
+        }
     }
 
     &__social-item {

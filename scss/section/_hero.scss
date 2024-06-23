@@ -10,6 +10,14 @@
   background-repeat: no-repeat;
   background-size: cover;
 
+  @media screen and (max-width:480px) {
+    width: 480px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+  }
+
+
 
   &__button {
     @extend %button;
@@ -27,10 +35,15 @@
     margin-right: auto;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
-    text-align: center;
+    line-height: 162%;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    text-align: center;
     width: 696px;
+
+    @media screen and (max-width:480px) {
+      font-size: 26px;
+      width: 360px;
+    }
   }
 }

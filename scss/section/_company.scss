@@ -10,12 +10,21 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
-
     margin-bottom: 50px;
+
+    @media screen and (max-width:480px) {
+      font-size: 28px;
+    }
   }
 
   &__list {
     @include flex ($align: center, $justify: center);
+
+    @media screen and (max-width:480px) {
+      display: grid;
+      grid-template-columns: repeat(2, 2fr);
+      gap: 30px;
+    }
 
   }
 
@@ -30,6 +39,10 @@
     width: 170px;
     height: 92px;
     transition: fill 250ms linear 100ms, border-radius 250ms linear 100ms, border 250ms linear 100ms;
+
+    @media screen and (max-width:480px) {
+      width: 210px;
+    }
   }
 
   &__img:hover {

@@ -12,6 +12,23 @@
         }
     }
 
+    &__wrap {
+        @media screen and (max-width: 767px) {
+            flex-direction: column;
+            gap: 60px;
+        }
+
+        @media screen and (min-width: 768px) {
+            flex-direction: column;
+            gap: 60px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            flex-direction: row;
+            gap: 93px;
+        }
+    }
+
     &__list {
         display: flex;
         flex-direction: column;
@@ -28,6 +45,11 @@
 
     &__item {
         max-width: 231px;
+
+        @media screen and (max-width: 1199px) {
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
 
     &__logo {
@@ -74,6 +96,11 @@
         letter-spacing: 0.03em;
         color: #ffffff;
         margin-top: 20px;
+
+        @media screen and (max-width: 1199px) {
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
 
     &__social-title {

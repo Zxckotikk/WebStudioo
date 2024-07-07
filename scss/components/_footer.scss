@@ -135,8 +135,6 @@
 
     &__tg-container {
         display: flex;
-
-
     }
 
     &__tg-list {
@@ -166,21 +164,16 @@
             max-width: 450px;
             width: 100%;
             max-height: 50px;
-            height: 100%;
         }
 
         @media screen and (min-width:768px) {
             max-width: 450px;
-            width: 100%;
             max-height: 50px;
-            height: 100%;
         }
 
         @media screen and (min-width:1200px) {
             max-width: 570px;
-            width: 100%;
             max-height: 50px;
-            height: 100%;
         }
     }
 
@@ -225,6 +218,7 @@
 
         @media screen and (max-width:480px) {
             margin-top: 20px;
+            margin-left: 140px;
         }
     }
 

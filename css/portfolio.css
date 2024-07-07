@@ -573,11 +573,6 @@ button {
     display: none;
   }
 }
-@media screen and (max-width: 768px) {
-  .header__burger {
-    margin-left: auto;
-  }
-}
 
 .header__item:nth-child(2) .header__link {
   font-weight: 500;

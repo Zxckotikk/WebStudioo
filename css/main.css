@@ -228,11 +228,6 @@ button {
     display: none;
   }
 }
-@media screen and (max-width: 768px) {
-  .header__burger {
-    margin-left: auto;
-  }
-}
 
 .modal {
   position: absolute;
@@ -762,25 +757,35 @@ button {
 @media screen and (min-width: 320px) {
   .advantages__text {
     max-width: 480px;
-    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
   }
 }
 @media screen and (min-width: 768px) {
   .advantages__text {
     max-width: 354px;
-    width: 100%;
   }
 }
 @media screen and (min-width: 1200px) {
   .advantages__text {
     max-width: 270px;
-    width: 100%;
   }
 }
 .advantages__img {
   border-radius: 4px;
   width: 70px;
   height: 70px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+@media screen and (min-width: 320px) {
+  .advantages__img {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
 }
 .advantages__img-container {
   width: 100%;
@@ -1013,32 +1018,27 @@ button {
 }
 .company__title {
   color: #212121;
-  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
   margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .company__list {
   display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 1200px) {
   .company__list {
-    max-width: 320px;
-    width: 100%;
-    gap: 30px;
-    display: block;
+    flex-wrap: nowrap;
   }
 }
 .company__item {
   margin-right: 30px;
-  width: calc((100% - 30px) / 2);
-}
-@media screen and (min-width: 320px) {
-  .company__item {
-    max-width: 210px;
-  }
 }
 .company__img {
   fill: rgb(175, 177, 184);
@@ -1047,11 +1047,6 @@ button {
   width: 170px;
   height: 92px;
   transition: fill 250ms linear 100ms, border-radius 250ms linear 100ms, border 250ms linear 100ms;
-}
-@media screen and (max-width: 480px) {
-  .company__img {
-    width: 210px;
-  }
 }
 .company__img:hover {
   fill: rgb(33, 150, 243);

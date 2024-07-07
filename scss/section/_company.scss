@@ -1,8 +1,7 @@
 .company {
   padding-bottom: 94px;
   padding-top: 94px;
-  display: flex;
-  
+
   &__title {
     color: $text-color;
     font-size: 36px;
@@ -10,7 +9,8 @@
     line-height: normal;
     letter-spacing: 1.08px;
     margin-bottom: 50px;
-
+    margin-left: auto;
+    margin-right: auto;
   }
 
   &__list {
@@ -26,14 +26,15 @@
 
   &__item {
     margin-right: 30px;
+
   }
 
   &__img {
     fill: rgba(175, 177, 184, 1);
     border-radius: 4px;
     border: 1px solid $icon-color;
-    // width: 170px;
-    // height: 92px;
+    width: 170px;
+    height: 92px;
     transition: fill 250ms linear 100ms, border-radius 250ms linear 100ms, border 250ms linear 100ms;
   }
 

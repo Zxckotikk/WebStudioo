@@ -1,8 +1,8 @@
-@mixin flex ($align: center, $justify: center) {
+@mixin flex ($align: center, $justify: center, ) {
     display: flex;
     align-items: $align;
     justify-content: $justify;
-    flex-wrap: wrap;
+   
 }
 
 @mixin fontSize ($font: 14px) {

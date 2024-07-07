@@ -5,31 +5,33 @@
   &__title {
     color: $text-color;
     text-align: center;
-    font-family: 'Roboto';
     font-size: 36px;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
     margin-bottom: 50px;
 
-    @media screen and (max-width:480px) {
-      font-size: 28px;
-    }
   }
 
   &__list {
-    @include flex ($align: center, $justify: center);
+    display: flex;
 
-    @media screen and (max-width:480px) {
-      display: grid;
-      grid-template-columns: repeat(2, 2fr);
+    @media screen and (min-width:320px) {
+      max-width: 320px;
+      width: 100%;
+      gap: 30px;
+      display: block;
       gap: 30px;
     }
-
   }
 
   &__item {
     margin-right: 30px;
+    width: calc((100% - 30px) / 2);
+
+    @media screen and (min-width:320px) {
+      max-width: 210px;
+    }
   }
 
   &__img {

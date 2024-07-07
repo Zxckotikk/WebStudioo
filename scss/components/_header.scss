@@ -9,40 +9,30 @@
         display: flex;
         align-items: center;
 
-        @media screen and (min-width: 768px) {
-            display: flex;
-        }
-
-        @media screen and (min-width: 1200px) {
-            display: flex;
-            align-items: center;
+        @media screen and (max-width: 768px) {
+            gap: 55px;
         }
     }
 
     &__navigation {
 
-        display: none;
-
         @media screen and (min-width: 768px) {
-            display: block;
+            width: 100%;
+            width: 517px;
         }
 
         @media screen and (min-width: 1200px) {
-            display: flex;
+            width: 933px;
         }
     }
 
     &__list {
-        display: none;
+        display: flex;
+        gap: 50px;
+        align-items: center;
 
-        @media screen and (min-width: 768px) {
-            display: flex;
-            gap: 50px;
-        }
-
-        @media screen and (min-width: 1200px) {
-            display: flex;
-            gap: 50px;
+        @media screen and (max-width: 767px) {
+            display: none;
         }
     }
 
@@ -84,7 +74,6 @@
 
         @media screen and (min-width: 1200px) {
             display: flex;
-            align-items: center;
         }
     }
 
@@ -126,13 +115,17 @@
         font-weight: 700;
         line-height: 1.38;
         letter-spacing: 0.72px;
-        margin-right: 276px;
+        margin-right: 93px;
         animation-name: run-title;
         animation-duration: 2s;
 
         @media screen and (min-width: 1200px) {
             font-size: 26px;
             letter-spacing: 0.78px;
+        }
+
+        @media screen and (max-width: 767px) {
+            margin-right: 0;
         }
     }
 
@@ -168,14 +161,16 @@
     }
 
     &__burger {
-        display: none;
-        padding-right: 15px;
-        width: 40px;
-        height: 40px;
+        background-color: transparent;
 
-
-        @media screen and (min-width: 1200px) {
+        @media screen and (min-width: 768px) {
             display: none;
+        }
+
+        @media screen and (max-width: 768px) {
+            opacity: 1;
+            margin-left: auto;
+            z-index: 3;
         }
     }
 }

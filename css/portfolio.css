@@ -284,16 +284,14 @@ button {
     text-align: center;
   }
 }
-.footer__tg-container {
-  display: flex;
-}
 .footer__tg-list {
   display: flex;
   gap: 12px;
 }
 @media screen and (max-width: 480px) {
   .footer__tg-list {
-    display: block;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
   }
@@ -370,7 +368,8 @@ button {
 @media screen and (max-width: 480px) {
   .footer__tg-button {
     margin-top: 20px;
-    margin-left: 140px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .footer__button-send {
@@ -416,11 +415,6 @@ button {
 .header__flex {
   display: flex;
   align-items: center;
-}
-@media screen and (max-width: 768px) {
-  .header__flex {
-    gap: 55px;
-  }
 }
 @media screen and (min-width: 768px) {
   .header__navigation {

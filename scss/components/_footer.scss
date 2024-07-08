@@ -133,16 +133,13 @@
         }
     }
 
-    &__tg-container {
-        display: flex;
-    }
-
     &__tg-list {
         display: flex;
         gap: 12px;
 
         @media screen and (max-width:480px) {
-            display: block;
+            display: flex;
+            flex-direction: column;
             justify-content: center;
             text-align: center;
         }
@@ -218,7 +215,8 @@
 
         @media screen and (max-width:480px) {
             margin-top: 20px;
-            margin-left: 140px;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 

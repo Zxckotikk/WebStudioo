@@ -9,8 +9,7 @@
         display: flex;
         align-items: center;
 
-        @media screen and (max-width: 768px) {
-        }
+        @media screen and (max-width: 768px) {}
     }
 
     &__navigation {
@@ -92,6 +91,20 @@
         color: $secondary-color;
         height: 16px;
         transition: color 250ms linear 100ms;
+
+
+        @media screen and (min-width: 768px) {
+            font-weight: 500;
+            font-size: 12px;
+            letter-spacing: 0.02em;
+        }
+
+        @media screen and (min-width: 1200px) {
+            font-weight: 500;
+            font-size: 14px;
+            letter-spacing: 0.02em;
+        }
+
     }
 
     &__phonenumber:hover {
@@ -133,11 +146,34 @@
         align-items: center;
         margin-left: auto;
         gap: 30px;
+
+        @media screen and (min-width: 767px) {
+            flex-direction: column;
+            gap: 10px;
+            align-items: flex-start;
+
+        }
+
+        @media screen and (min-width: 1200px) {
+            flex-direction: row;
+        }
     }
 
     &__emael {
         color: $secondary-color;
         transition: color 250ms linear 100ms;
+
+        @media screen and (min-width: 768px) {
+            font-weight: 500;
+            font-size: 12px;
+            letter-spacing: 0.02em;
+        }
+
+        @media screen and (min-width: 1200px) {
+            font-weight: 500;
+            font-size: 14px;
+            letter-spacing: 0.02em;
+        }
     }
 
     &__emael:hover {

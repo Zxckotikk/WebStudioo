@@ -47,6 +47,19 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  display: flex;
+}
+@media screen and (min-width: 320px) {
+  .poster__list {
+    flex-direction: column;
+    padding-top: 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .poster__list {
+    flex-direction: row;
+    padding-top: 40px;
+  }
 }
 .poster__item {
   margin-top: 30px;
@@ -55,6 +68,12 @@ button {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   flex-basis: calc((100% - 65px) / 3);
   transition: background-color 250ms linear 100ms, box-shadow 300ms linear 100ms, transform 350ms linear 100ms, border 250ms linear 100ms;
+}
+@media screen and (min-width: 320px) {
+  .poster__item {
+    width: 100%;
+    max-width: 450px;
+  }
 }
 .poster__item:hover {
   transform: scale(1.05);
@@ -76,11 +95,29 @@ button {
   padding: 63px 24px 63px 24px;
   transition: transform 400ms linear 100ms;
 }
+@media screen and (min-width: 320px) {
+  .poster__text {
+    width: 100%;
+    max-width: 450px;
+    height: 294px;
+  }
+}
 .poster__item:hover .poster__text {
   transform: translate(0);
 }
 .poster__text-container {
   padding-left: 24px;
+}
+@media screen and (min-width: 320px) {
+  .poster__text-container {
+    width: 100%;
+    max-width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .poster__text-container {
+    width: 322px;
+  }
 }
 .poster__title {
   font-weight: 700;
@@ -102,9 +139,21 @@ button {
   width: 370px;
   height: 294px;
 }
+@media screen and (min-width: 320px) {
+  .poster__img {
+    width: 100%;
+    max-width: 450px;
+  }
+}
 .poster__container {
   position: relative;
   overflow: hidden;
+}
+@media screen and (min-width: 320px) {
+  .poster__container {
+    width: 100%;
+    max-width: 450px;
+  }
 }
 
 .buttons__list {
@@ -114,10 +163,20 @@ button {
   padding-top: 94px;
   gap: 8px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 320px) {
   .buttons__list {
-    width: 326px;
+    max-width: 326px;
     height: 91px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-top: 35px;
+    margin-left: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .buttons__list {
+    height: 0;
+    padding-top: 94px;
   }
 }
 .buttons__button {
@@ -165,6 +224,10 @@ button {
 @media screen and (min-width: 320px) {
   .footer__container {
     display: block;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 360px) {
@@ -172,9 +235,9 @@ button {
     flex-wrap: wrap;
   }
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 1200px) {
   .footer__container {
-    display: flex;
+    flex-direction: row;
   }
 }
 @media screen and (max-width: 767px) {
@@ -431,13 +494,7 @@ button {
 }
 @media screen and (min-width: 768px) {
   .header__navigation {
-    width: 100%;
-    width: 517px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .header__navigation {
-    width: 933px;
+    width: auto;
   }
 }
 .header__list {

@@ -71,7 +71,6 @@ button {
 }
 @media screen and (min-width: 320px) {
   .poster__item {
-    width: 100%;
     max-width: 450px;
   }
 }

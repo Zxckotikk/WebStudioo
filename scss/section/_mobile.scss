@@ -1,0 +1,123 @@
+.mobil {
+
+
+    @media screen and (min-width:768px) {
+        display: none;
+    }
+
+    @media screen and (min-width:1200px) {
+        display: none;
+    }
+
+    &__backdrop {
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(5px);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    &__window {
+        display: flex;
+        flex-direction: column;
+        border-radius: 4px;
+        background: #fff;
+        flex-shrink: 0;
+        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
+            0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: scale(1) translate(-50%, -50%);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        padding-left: 40px;
+        padding-right: 15px;
+        padding-bottom: 40px;
+        padding-top: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    &__backdrop.is-hidden &__window {
+        transform: translate(0);
+        transform: scale(0);
+    }
+
+    .is-hidden {
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+    }
+
+    .no-scroll {
+        overflow: hidden;
+    }
+
+    &__icon {
+        width: 30px;
+        height: 30px;
+
+        &:hover {
+            fill: $hover-color;
+            transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    }
+
+    &__button {
+        border: none;
+        display: flex;
+        margin-left: auto;
+        padding: 0;
+    }
+
+    &__link {
+        color: $hover-color;
+        @include text ($size: 40px, $weight: 500, $height: none, $spacing: 0.8px, $transform: none);
+
+        &:hover {
+            color: $hover-color;
+            transition: text 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    }
+
+    &__nav {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    &__gap {
+        height: 100%;
+    }
+
+    &__iteminfo {
+        margin-bottom: 32px;
+    }
+
+    &__number {
+        color: $hover-color;
+        @include text ($size: 34px, $weight: 500, $height: none, $spacing: 0.68px, $transform: none);
+    }
+
+    &__email {
+        color: $text-color;
+        @include text ($size: 24px, $weight: 500, $height: none, $spacing: 0.48px, $transform: none);
+    }
+
+    &__sociallink {
+        color: $hover-color;
+        @include text ($size: 18px, $weight: 500, $height: 22px, $spacing: 0.36px, $transform: none);
+    }
+
+    &__social {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &__itemsocial {
+        margin-top: 32px;
+    }
+}

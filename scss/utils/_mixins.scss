@@ -2,11 +2,19 @@
     display: flex;
     align-items: $align;
     justify-content: $justify;
-   
+
 }
 
 @mixin fontSize ($font: 14px) {
     font-size: 14px;
     letter-spacing: 0.02em;
     line-height: 1.14;
+}
+
+@mixin text($size, $weight, $height, $spacing, $transform) {
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $height;
+    letter-spacing: $spacing;
+    text-transform: $transform;
 }

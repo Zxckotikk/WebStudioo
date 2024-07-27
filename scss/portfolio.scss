@@ -5,8 +5,10 @@
 @import"./base/commont";
 @import"./section/poster";
 @import"./section/main";
+@import "./section/mobile";
 @import"./components/footer";
 @import"./components/header";
+
 
 .header__item:nth-child(2) .header__link {
     font-weight: 500;

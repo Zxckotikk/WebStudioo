@@ -8,17 +8,14 @@
         gap: 8px;
 
         @media screen and (min-width:320px) {
-            max-width: 326px;
             height: 91px;
             flex-wrap: wrap;
-            justify-content: flex-start;
             padding-top: 35px;
             margin-left: 15px;
         }
 
         @media screen and (min-width:1200px) {
             height: 0;
-            
             padding-top: 94px;
         }
     }
@@ -41,7 +38,7 @@
         padding-right: 22px;
         transition: color 250ms linear 100ms, background 250ms linear 100ms;
 
-        @media screen and (max-width:480px) {
+        @media screen and (min-width:480px) {
             border-radius: 4px;
             max-width: 125px;
             height: 38px;

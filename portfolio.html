@@ -65,24 +65,26 @@
     </div>
   </header>
   <main class="main">
-    <div class="buttons">
-      <ul class="buttons__list">
-        <li class="buttons__item">
-          <button type="button" class="buttons__button">Усі</button>
-        </li>
-        <li class="buttons__item">
-          <button type="button" class="buttons__button">Веб-сайти</button>
-        </li>
-        <li class="buttons__item">
-          <button type="button" class="buttons__button">Додатки</button>
-        </li>
-        <li class="buttons__item">
-          <button type="button" class="buttons__button">Дизайн</button>
-        </li>
-        <li class="buttons__item">
-          <button type="button" class="buttons__button">Маркетинг</button>
-        </li>
-      </ul>
+    <div class="container">
+      <div class="buttons">
+        <ul class="buttons__list">
+          <li class="buttons__item">
+            <button type="button" class="buttons__button">Усі</button>
+          </li>
+          <li class="buttons__item">
+            <button type="button" class="buttons__button">Веб-сайти</button>
+          </li>
+          <li class="buttons__item">
+            <button type="button" class="buttons__button">Додатки</button>
+          </li>
+          <li class="buttons__item">
+            <button type="button" class="buttons__button">Дизайн</button>
+          </li>
+          <li class="buttons__item">
+            <button type="button" class="buttons__button">Маркетинг</button>
+          </li>
+        </ul>
+      </div>
     </div>
     <section class="poster">
       <div class="container">
@@ -262,7 +264,7 @@
       <div class="mobil__window">
         <button class="mobil__button" type="button" data-mobile-close>
           <svg class="mobil__icon">
-            <use href="./photo/symbol-defs.svg#icon-closeblack"></use>
+            <use href="./img/icons.svg#icon-close"></use>
           </svg>
         </button>
         <ul class="mobil__nav">
@@ -304,5 +306,8 @@
   </div>
   <script src="./js/mobile.js"></script>
 </body>
+<script>
+  AOS.init();
+</script>
 
 </html>

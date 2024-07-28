@@ -57,8 +57,9 @@
     }
 
     &__icon {
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
+        fill: black;
 
         &:hover {
             fill: $hover-color;
@@ -74,7 +75,7 @@
     }
 
     &__link {
-        color: $hover-color;
+        color: $text-color ;
         @include text ($size: 40px, $weight: 500, $height: none, $spacing: 0.8px, $transform: none);
 
         &:hover {

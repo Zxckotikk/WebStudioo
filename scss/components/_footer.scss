@@ -23,7 +23,7 @@
             flex-wrap: wrap;
         }
 
-       
+
 
         @media screen and (min-width: 1200px) {
             flex-direction: row;
@@ -51,7 +51,7 @@
         display: flex;
         flex-direction: column;
         gap: 9px;
-        padding-right: 70px;
+
 
         @media screen and (max-width:480px) {
             align-items: center;
@@ -136,7 +136,7 @@
     }
 
     &__our-telegram {
-        padding-left: 93px;
+        margin-left: 93px;
 
         @media screen and (max-width:480px) {
             padding-left: 0;
@@ -146,7 +146,6 @@
 
     &__tg-list {
         display: flex;
-        flex-wrap: wrap;
         gap: 12px;
         justify-content: center;
 

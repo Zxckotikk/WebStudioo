@@ -3,7 +3,6 @@
     padding-top: 34px;
 
     &__list {
-        width: 1170px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -12,6 +11,10 @@
         @media screen and (min-width:320px) {
             flex-direction: column;
             padding-top: 40px;
+        }
+
+        @media screen and (min-width:768px) {
+        flex-direction: row;
         }
 
         @media screen and (min-width:1200px) {
@@ -23,7 +26,7 @@
 
     &__item {
         margin-top: 30px;
-        width: 370px;
+        max-width: 370px;
         height: 404px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         flex-basis: calc((100% - 65px) / 3);
@@ -31,6 +34,11 @@
 
         @media screen and (min-width:320px) {
             max-width: 450px;
+        }
+
+        @media screen and (min-width:768px) {
+            max-width: 354px;
+            width: 100%;
         }
     }
 

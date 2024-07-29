@@ -69,7 +69,7 @@
     <section class="hero">
       <div class="container">
         <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class="hero__button animate__heartBeat" data-modal-open>Замовити послугу</button>
+        <button type="button" data-modal-open class="hero__button animate__heartBeat">Замовити послугу</button>
       </div>
 
     </section>
@@ -118,19 +118,43 @@
         <h2 class="work__title">Чим ми займаємося</h2>
         <ul class="work__list">
           <li class="work__item">
-            <img src="./img/img.png" class="work__img" alt="" />
+            <picture>
+              <source srcset="./img/desktop/keyboard-1x.webp 1x, ./img/desktop/keyboard-2x.webp 2x" type="image/webp"
+                media="(min-width:1200px)">
+              <source srcset="./img/tablet/keyboard-1x.webp 1x, ./img/tablet/keyboard-2x.webp 2x" type="image/webp"
+                media="(min-width:768px)">
+              <source srcset="./img/mobile/keyboard-1x.webp 1x, ./img/mobile/keyboard-2x.webp 2x" type="image/webp"
+                media="(min-width:320px)">
+              <img scr="./img/img.png" alt="" >
+            </picture>
             <div class="work__wrapper">
               <h3 class="work__subtitle">ДЕСКТОПНІ ДОДАТКИ</h3>
             </div>
           </li>
           <li class="work__item">
-            <img src="./img/img1.png" class="work__img" alt="" />
+            <picture>
+              <source src="./img/desktop/workphone-1x.webp 1x,./img/desktop/workphone-2x.webp 2x" type="image/webp"
+                media="(min-width:1200px)">
+              <source src="./img/tablet/workphone-1x.webp 1x,./img/tablet/workphone-2x.webp 2x" type="image/webp"
+                media="(min-width:768px)">
+              <source src="./img/mobile/workphone-1x.webp 1x,./img/mobile/workphone-2x.webp 2x" type="image/webp"
+                media="(min-width:320px)">
+              <img src="./img/img1.png" alt="">
+            </picture>
             <div class="work__wrapper">
               <h3 class="work__subtitle">МОБІЛЬНІ ДОДАТКИ</h3>
             </div>
           </li>
           <li class="work__item">
-            <img src="./img/img2.png" class="work__img" alt="" />
+            <picture>
+              <source src="./img/desktop/tablet-1x.webp 1x,./img/desktop/tablet-2x.webp 2x" type="image/webp"
+                media="(min-width:1200px)">
+              <source src="./img/tablet/tablet-1x.webp 1x,./img/tablet/tablet-2x.webp 2x" type="image/webp"
+                media="(min-width:768px)">
+              <source src="./img/mobile/tablet-1x.webp 1x,./img/mobile/tablet-2x.webp 2x" type="image/webp"
+                media="(min-width:320px)">
+              <img src="./img/img2.png" alt="">
+            </picture>
             <div class="work__wrapper">
               <h3 class="work__subtitle">ДИЗАЙНЕРСЬКІ РІШЕННЯ</h3>
             </div>
@@ -143,7 +167,15 @@
         <h2 class="team__title">Наша команда</h2>
         <ul class="team__list">
           <li class="team__item">
-            <img class="team__img" src="./img/men3.png" alt="Чоловік 1" />
+            <picture>
+              <source src="./img/desktop/igor-1x.webp 1x,./img/desktop/igor-2x.webp 2x" type="image/webp"
+                media="(min-width:1200px)">
+              <source src="./img/tablet/igor-1x.webp 1x,./img/tablet/igor-2x.webp 2x" type="image/webp"
+                media="(min-width:768px)">
+              <source src="./img/mobile/igor-1x.webp 1x,./img/mobile/igor-2x.webp 2x" type="image/webp"
+                media="(min-width:320px)">
+              <img src="./img/men1.png" alt="" class="team__img">
+            </picture>
             <h2 class="team__name">Ігор Дем'яненко</h2>
             <p class="team__text">Product Designer</p>
             <ul class="team__icon-list">
@@ -175,7 +207,15 @@
             </ul>
           </li>
           <li class="team__item">
-            <img class="team__img" src="./img/women.png" alt="Жінка" />
+            <picture>
+              <source src="./img/desktop/olga-1x.webp 1x,./img/desktop/olga-2x.webp 2x" type="image/webp"
+                media="(min-width:1200px)" >
+              <source src="./img/tablet/olga-1x.webp 1x,./img/tablet/olga-2x.webp 2x" type="image/webp"
+                media="(min-width:768px)" >
+              <source src="./img/mobile/olga-1x.webp 1x,./img/mobile/olga-2x.webp 2x" type="image/webp"
+                media="(min-width:320px)" >
+              <img src="./img/women.png" alt="" class="team__img">
+            </picture>
             <h2 class="team__name">Ольга Рєпіна</h2>
             <p class="team__text">Frontend Developer</p>
             <ul class="team__icon-list">
@@ -210,7 +250,15 @@
             </ul>
           </li>
           <li class="team__item">
-            <img class="team__img" src="./img/men2.png" alt="Чоловік 2" />
+            <picture>
+              <source src="./img/desktop/micola-1x.webp 1x,./img/desktop/micola-2x.webp 2x" type="image/webp"
+                media="(min-width:1200px)">
+              <source src="./img/tablet/micola-1x.webp 1x,./img/tablet/micola-2x.webp 2x" type="image/webp"
+                media="(min-width:768px)">
+              <source src="./img/mobile/micola-1x.webp 1x,./img/mobile/micola-2x.webp 2x" type="image/webp"
+                media="(min-width:320px)">
+              <img class="team__img" src="./img/men2.png" alt="Чоловік 2" />
+            </picture>
             <h2 class="team__name">Микола Тарасов</h2>
             <p class="team__text">Marketing</p>
             <ul class="team__icon-list">
@@ -245,7 +293,15 @@
             </ul>
           </li>
           <li class="team__item">
-            <img class="team__img" src="./img/men1.png" alt="Чоловік 3" />
+            <picture>
+              <source src="./img/desktop/mihail-1x.webp 1x,./img/desktop/mihail-2x.webp 2x" type="image/webp"
+                media="(min-width:1200px)" class="team__img">
+              <source src="./img/tablet/mihail-1x.webp 1x,./img/tablet/mihail-2x.webp 2x" type="image/webp"
+                media="(min-width:768px)" class="team__img">
+              <source src="./img/mobile/mihail-1x.webp 1x,./img/mobile/mihail-2x.webp 2x" type="image/webp"
+                media="(min-width:320px)" class="team__img">
+              <img src="./img/men3.png" alt="" class="team__img">
+            </picture>
             <h2 class="team__name">Михайло Єрмаков</h2>
             <p class="team__text">UI Designer</p>
             <ul class="team__icon-list">

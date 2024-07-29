@@ -6,20 +6,59 @@
   letter-spacing: 0.06em;
   color: $white-color;
   display: flex;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/фон-hero.png);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/desktop/heroimg-1x.webp);
   background-repeat: no-repeat;
   background-size: cover;
 
-  @media screen and (max-width:480px) {
+  @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/desktop/heroimg-2x.webp);
+
+  }
+
+  @media screen and (min-width:320px) {
     align-items: center;
     justify-content: center;
     padding: 118px 0;
+
+    .hero {
+      padding-bottom: 200px;
+      padding-top: 200px;
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/mobile/heroimg-1x.webp);
+
+
+      @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/mobile/heroimg-2x.webp);
+
+      }
+    }
   }
 
-  @media screen and (max-width: 1200px ) {
+  @media screen and (max-width: 1200px) {
     padding: 118px 0;
+
+
   }
 
+  @media screen and (min-width: 768px) {
+    .hero {
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/tablet/heroimg-1x.webp);
+
+
+      @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/tablet/heroimg-2x.webp);
+
+      }
+    }
+  }
 
   &__button {
     @extend %button;

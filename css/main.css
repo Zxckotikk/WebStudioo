@@ -922,6 +922,12 @@ button {
     padding-bottom: 60px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .work {
+    display: flex;
+    padding-bottom: 60px;
+  }
+}
 @media screen and (max-width: 480px) {
   .work {
     display: none;
